@@ -1,0 +1,1554 @@
+{
+  "header": {
+    "title": {
+      "en": "Stock Options & RSUs Guide",
+      "zh": "股票期权和RSU指北"
+    }
+  },
+  "nav": {
+    "guide": {
+      "en": "101 Guide",
+      "zh": "基础知识"
+    },
+    "calculator": {
+      "en": "Calculator",
+      "zh": "计算器"
+    },
+    "language_toggle_title": {
+      "en": "Toggle Language / 切换语言",
+      "zh": "Toggle Language / 切换语言"
+    },
+    "switch_to_chinese": {
+      "en": "切换到中文",
+      "zh": "切换到中文"
+    },
+    "switch_to_english": {
+      "en": "Switch to English",
+      "zh": "Switch to English"
+    },
+    "toggle_menu": {
+      "en": "Toggle menu",
+      "zh": "切换菜单"
+    }
+  },
+  "footer": {
+    "subtitle": {
+      "en": "Stock Options & RSUs Guide for Chinese Employees",
+      "zh": "面向在外企工作的中国员工的股票期权和RSU指南"
+    },
+    "disclaimer": {
+      "en": "Educational purposes only. Please consult with financial and tax professionals for personalized advice.",
+      "zh": "仅供教育目的。请咨询金融和税务专业人士获取个性化建议。"
+    }
+  },
+  "info": {
+    "hero": {
+      "title": {
+        "en": "Stock Options & RSUs 101",
+        "zh": "外企股票期权和RSU不完全攻略"
+      },
+      "subtitle": {
+        "en": "Complete guide for Chinese employees working at foreign companies. Understand your stock compensation, tax implications, and make informed decisions.",
+        "zh": "专为在外企工作的国内员工打造！从拿到期权到公司上市，从行权时机到税务筹划，手把手教你搞懂股票激励，避开常见坑点。"
+      }
+    },
+    "sections": {
+      "options": {
+        "title": {
+          "en": "Stock Options Basics",
+          "zh": "股票期权基础知识"
+        },
+        "what_are": {
+          "title": {
+            "en": "What are Stock Options?",
+            "zh": "期权到底是什么？简单说就是..."
+          },
+          "description": {
+            "en": "Stock options give you the right (but not obligation) to buy company shares at a fixed price (strike price) for a certain period. If the company's stock price rises above your strike price, you can profit.",
+            "zh": "公司给你一个\"购买权\"，让你可以在未来某个时间，用今天约定好的价格买公司股票。如果到时候公司股价涨了，你就赚到了差价！关键是，你可以选择买或不买，没有强制要求。"
+          },
+          "example": {
+            "en": "Example: You have options with a $10 strike price. If the stock trades at $50, you can buy at $10 and immediately sell at $50, making $40 per share profit. Wait wait, can you really get $40k in your pocket?",
+            "zh": "举个例子：2022年公司给你期权，约定价格是10美元一股。到了2024年公司上市，股价涨到50美元。这时你可以用10美元买入，立马50美元卖出，每股净赚40美元！如果有1000股期权，就是4万美元到手。等等，你真的能到手 4 万美元吗？"
+          }
+        },
+        "types": {
+          "title": {
+            "en": "Types of Stock Options",
+            "zh": "外企常见的两种期权，搞清楚很重要！"
+          },
+          "iso": {
+            "title": {
+              "en": "ISO (Incentive Stock Options)",
+              "zh": "ISO - 激励性期权（税收友好型）"
+            },
+            "features": {
+              "tax_advantaged": {
+                "en": "Tax-advantaged for employees",
+                "zh": "✅ 税收优惠大：符合条件可享受长期资本利得税率"
+              },
+              "holding_period": {
+                "en": "Must hold 2+ years from grant, 1+ year from exercise",
+                "zh": "⏰ 持有要求：拿到期权2年后+行权1年后才能享受优惠"
+              },
+              "amt": {
+                "en": "AMT (Alternative Minimum Tax) implications",
+                "zh": "⚠️ 注意AMT：行权时可能触发替代最低税，需要计算"
+              },
+              "employees_only": {
+                "en": "Only for employees, not contractors",
+                "zh": "🎯 仅限正式员工，外包/顾问拿不到"
+              }
+            }
+          },
+          "nso": {
+            "title": {
+              "en": "NSO (Non-Qualified Stock Options)",
+              "zh": "NSO - 非合格期权（更灵活）"
+            },
+            "features": {
+              "ordinary_income": {
+                "en": "Taxed as ordinary income when exercised",
+                "zh": "💰 行权即征税：按工资收入税率缴税，税负较重"
+              },
+              "no_holding": {
+                "en": "No holding period requirements",
+                "zh": "🚀 随时可卖：行权后立即出售也行，没有持有期限制"
+              },
+              "flexible": {
+                "en": "Available to employees and contractors",
+                "zh": "👥 覆盖面广：正式员工、外包、顾问都可能拿到"
+              },
+              "less_advantaged": {
+                "en": "More flexible but less tax-advantaged",
+                "zh": "⚖️ 灵活但贵：操作简单，但税收成本比ISO高"
+              }
+            }
+          },
+          "note": {
+            "en": "The ISO/NSO distinction commonly used in the US may not directly apply in China's context. Chinese companies typically structure their equity incentives based on local regulations and practical needs. For instance, many tech companies using VIE structures need to consider specific requirements around option exercise registration. While understanding ISO/NSO concepts is helpful, the actual implementation in China often requires customized solutions that work within the local regulatory framework. In practice, Chinese companies tend to favor NSO-like structures for their flexibility.",
+            "zh": "美国常见的ISO/NSO分类在中国可能并不完全适用。国内公司通常需要根据本地法规和实际需求来设计股权激励方案。比如很多采用VIE架构的科技公司，在期权行权时都需要考虑特殊的备案要求。了解ISO/NSO的概念有帮助，但在国内落地时往往需要因地制宜，设计符合本地监管要求的方案。实践中，国内公司更常见的是类似NSO的灵活方案。"
+          }
+        },
+        "vesting": {
+          "title": {
+            "en": "Vesting Schedule",
+            "zh": "期权什么时候能用？看懂归属时间表"
+          },
+          "description": {
+            "en": "Most options vest over time, typically 4 years with a 1-year cliff:",
+            "zh": "外企一般不会一次性给你所有期权，而是分批\"解锁\"。典型的套路是4年解锁完，第一年是等待期（一股都拿不到），之后每年解锁一部分："
+          },
+          "year1": {
+            "en": [
+              "0%",
+              "Cliff"
+            ],
+            "zh": [
+              "第1年 ：0%",
+              "等待期，防止你刚入职就跑路"
+            ]
+          },
+          "year2": {
+            "en": [
+              "Year 2 : 25%"
+            ],
+            "zh": [
+              "第2年 ：25%",
+              "熬过第一年，开始有收获"
+            ]
+          },
+          "year3": {
+            "en": [
+              "Year 3 : 50%"
+            ],
+            "zh": [
+              "第3年 ：50%",
+              "过半了，开始有意思"
+            ]
+          },
+          "year4": {
+            "en": [
+              "Year 4 : 75%"
+            ],
+            "zh": [
+              "第4年 ：75%",
+              "大部分到手"
+            ]
+          },
+          "year5": {
+            "en": [
+              "Year 5 : 100%"
+            ],
+            "zh": [
+              "第5年 ：100%",
+              "全部解锁，自由了！"
+            ]
+          },
+          "note": {
+            "en": "The vesting schedule may vary depending on the company's policy. In previous years, stock options vested 25% annually over 4 years to reach 100%. However, in recent years, many companies have adopted more employee-friendly vesting schedules - for example, 25% after the first year, then vesting quarterly or monthly for the remaining three years to reach 100%. This design makes vesting more flexible and provides faster incentives for employees.",
+            "zh": "归属时间表可能因公司政策不同而不同，前些年，4 年的期权成熟期每年成熟 25%，分四年完成 100%。但是近年来很多公司都改成了对员工更有好的归属时间表，比如还是第一年结束成熟 25%，之后每个季度或者是每个月都按比例成熟对应的比例，也是分四年完成 100%。这样的设计可以让期权的归属更加灵活，对员工的激励更快。"
+          }
+        }
+      },
+      "rsu": {
+        "title": {
+          "en": "RSUs (Restricted Stock Units)",
+          "zh": "RSU - 直接给股票，比期权更直接！"
+        },
+        "what_are": {
+          "title": {
+            "en": "What are RSUs?",
+            "zh": "RSU是啥？简单说就是..."
+          },
+          "description": {
+            "en": "RSUs are company shares given to employees that vest over time. Unlike options, you don't pay to exercise them. When they vest, you automatically own the shares and owe taxes on their full market value. In China, only companies that have gone public can offer RSUs. For pre-IPO companies, only options can be granted. However, in other countries, some unicorn companies can also choose to directly grant RSUs to employees.",
+            "zh": "公司直接承诺给你股票，到期自动到账，不用你掏钱买！比如公司说给你1000股RSU，分4年给，每年给250股。时间一到，股票就自动转到你账户，你就是股东了。在国内，只有公司上市了才可以给员工RSU。未上市只能是授予期权，但是在国外，一些独角兽企业也可以选择直接给员工RSU。"
+          },
+          "key_difference": {
+            "en": "Key Difference: With RSUs, you own actual shares once vested. With options, you have the right to buy shares at a specific price.",
+            "zh": "跟期权的区别：RSU到期就是真股票，不用你操心；期权只是个\"购买权\"，还得你掏钱买。所以RSU更省心，期权风险更大但潜在收益也更高。"
+          }
+        },
+        "vesting_taxation": {
+          "title": {
+            "en": "RSU Vesting & Taxation",
+            "zh": "RSU归属与税务"
+          },
+          "vesting_events": {
+            "title": {
+              "en": "Vesting Events",
+              "zh": "归属事件"
+            },
+            "description": {
+              "en": "RSUs typically vest quarterly over 3-4 years",
+              "zh": "RSU通常在3-4年内按季度归属"
+            }
+          },
+          "tax_on_vesting": {
+            "title": {
+              "en": "Tax on Vesting",
+              "zh": "归属时的税务"
+            },
+            "description": {
+              "en": "You owe income tax on the full market value when shares vest",
+              "zh": "股票归属时您需要按完整市场价值缴纳所得税"
+            }
+          },
+          "capital_gains": {
+            "title": {
+              "en": "Capital Gains",
+              "zh": "资本利得"
+            },
+            "description": {
+              "en": "Additional gains/losses when you sell are treated as capital gains",
+              "zh": "出售时的额外收益/损失按资本利得处理"
+            }
+          }
+        },
+        "comparison": {
+          "title": {
+            "en": "RSU vs Options Comparison",
+            "zh": "RSU与期权对比"
+          },
+          "table": {
+            "aspect": {
+              "en": "Aspect",
+              "zh": "方面"
+            },
+            "stock_options": {
+              "en": "Stock Options",
+              "zh": "股票期权"
+            },
+            "rsus": {
+              "en": "RSUs",
+              "zh": "RSU"
+            },
+            "upfront_cost": {
+              "aspect": {
+                "en": "Upfront Cost",
+                "zh": "前期成本"
+              },
+              "options": {
+                "en": "Must pay exercise price",
+                "zh": "必须支付行权价"
+              },
+              "rsus": {
+                "en": "No cost",
+                "zh": "无成本"
+              }
+            },
+            "risk": {
+              "aspect": {
+                "en": "Risk",
+                "zh": "风险"
+              },
+              "options": {
+                "en": "Can expire worthless",
+                "zh": "可能失效无价值"
+              },
+              "rsus": {
+                "en": "Always have some value",
+                "zh": "始终有一定价值"
+              }
+            },
+            "upside_potential": {
+              "aspect": {
+                "en": "Upside Potential",
+                "zh": "上涨潜力"
+              },
+              "options": {
+                "en": "Unlimited",
+                "zh": "无限"
+              },
+              "rsus": {
+                "en": "Limited to stock price",
+                "zh": "受限于股价"
+              }
+            },
+            "tax_timing": {
+              "aspect": {
+                "en": "Tax Timing",
+                "zh": "纳税时机"
+              },
+              "options": {
+                "en": "When you exercise",
+                "zh": "行权时"
+              },
+              "rsus": {
+                "en": "When shares vest",
+                "zh": "股票归属时"
+              }
+            }
+          }
+        }
+      },
+      "tax": {
+        "title": {
+          "en": "Tax Implications for Chinese Employees",
+          "zh": "国内员工最关心的：税务怎么算？"
+        },
+        "disclaimer": {
+          "title": {
+            "en": "Important Disclaimer",
+            "zh": "⚠️ 先说重要的事"
+          },
+          "content": {
+            "en": "Tax laws are complex and change frequently. This is educational information only. Always consult with qualified tax professionals in both countries.",
+            "zh": "税务问题水很深！中美两国税法都在变，这里只是科普。真要操作前，一定要找专业的税务师咨询，别拿自己的钱开玩笑。"
+          }
+        },
+        "us_tax": {
+          "title": {
+            "en": "US Tax Obligations",
+            "zh": "美国这边怎么收税？"
+          },
+          "options": {
+            "title": {
+              "en": "For Stock Options:",
+              "zh": "期权的税务套路："
+            },
+            "iso": {
+              "en": "ISO: No tax on exercise, but AMT may apply. Tax on sale based on holding period.",
+              "zh": "💡 ISO比较友好：行权时暂时不用交税，但小心AMT这个坑。卖股票时才真正算税，持有时间够长的话税率更低。"
+            },
+            "nso": {
+              "en": "NSO: Ordinary income tax on exercise (fair market value - strike price)",
+              "zh": "💸 NSO比较直接：行权那一刻就得按工资收入交税。比如股价50美元，行权价10美元，那40美元差价要按你的工资税率交税。"
+            },
+            "capital_gains": {
+              "en": "Capital gains tax on any additional gains when selling shares",
+              "zh": "📈 卖出时的第二重税：行权后如果不立即卖出，等股价涨了再卖，涨幅部分要交资本利得税。持有1年以上享受长期资本利得税率（通常15-20%），不到1年按普通收入税率算。"
+            }
+          },
+          "rsus": {
+            "title": {
+              "en": "For RSUs:",
+              "zh": "RSU的税务更简单："
+            },
+            "vesting_tax": {
+              "en": "Ordinary income tax on vesting date (full market value)",
+              "zh": "🎯 股票到账即交税：RSU一归属，整个市场价值都要按工资收入交税。比如1000股×50美元=5万美元，全部算收入。"
+            },
+            "sale_tax": {
+              "en": "Capital gains tax on gains/losses from vesting price to sale price",
+              "zh": "📊 卖出时的第二重税：RSU归属后如果不立即卖，等股价变化后再卖，价差要交资本利得税。比如归属时50美元，涨到100美元再卖，那50美元涨幅要交资本利得税。"
+            },
+            "withholding": {
+              "en": "Withholding typically happens automatically",
+              "zh": "🤖 自动扣税：公司通常会自动帮你扣掉一部分税，但可能不够，年底报税时要补。"
+            }
+          }
+        },
+        "china_tax": {
+          "title": {
+            "en": "China Tax Considerations",
+            "zh": "回国后国内怎么收税？这是大头！"
+          },
+          "key_points": {
+            "en": "Key Points for Chinese Tax Residents:",
+            "zh": "国内员工必须知道的几个要点："
+          },
+          "worldwide_income": {
+            "en": "China may tax worldwide income, including stock compensation",
+            "zh": "🌍 全球收入都要报：你在美国的股票收益，国内税务局也要管！尤其是税务居民身份的人。"
+          },
+          "tax_treaties": {
+            "en": "Tax treaties between US and China may provide relief from double taxation",
+            "zh": "🤝 避免双重征税：中美有协定，理论上不会让你交两遍税，但具体操作很复杂。"
+          },
+          "timing_differences": {
+            "en": "Timing of recognition may differ between US and China tax systems",
+            "zh": "⏰ 时间差很要命：美国可能今年算收入，中国可能明年才算，搞不好会很麻烦。"
+          },
+          "currency_conversion": {
+            "en": "Currency conversion rates affect the taxable amount in RMB",
+            "zh": "💱 汇率是个坑：美元收入要按汇率转成人民币算税，汇率波动会影响你的税负。"
+          },
+          "residency_rules": {
+            "en": "Different rules may apply based on your tax residency status",
+            "zh": "🏠 居民身份很关键：在国内住满183天就算税务居民，规则完全不一样，一定要搞清楚。"
+          },
+          "capital_gains_china": {
+            "en": "Capital gains from stock sales are subject to China's tax rates",
+            "zh": "💰 国内资本利得税：卖股票的收益在国内按20%固定税率征收！这比美国的长期资本利得税率（15-20%）要高，而且没有持有期优惠。"
+          },
+          "complete_tax_chain": {
+            "en": "Complete tax implications from grant to final sale",
+            "zh": "🔗 完整税务链条：拿期权→行权交税→卖出再交税，每个环节都有税务影响，千万别只算前面忘了后面。"
+          }
+        },
+        "planning": {
+          "title": {
+            "en": "Tax Planning Strategies",
+            "zh": "税务规划策略"
+          },
+          "timing": {
+            "title": {
+              "en": "Timing Strategies",
+              "zh": "时机策略"
+            },
+            "tax_year": {
+              "en": "Consider tax year timing for exercises/sales",
+              "zh": "考虑行权/出售的税年时机"
+            },
+            "residency_changes": {
+              "en": "Plan around changes in tax residency",
+              "zh": "围绕税务居民身份变化进行规划"
+            },
+            "income_coordination": {
+              "en": "Coordinate with other income sources",
+              "zh": "与其他收入来源协调"
+            }
+          },
+          "documentation": {
+            "title": {
+              "en": "Documentation",
+              "zh": "文档记录"
+            },
+            "detailed_records": {
+              "en": "Keep detailed records of all transactions",
+              "zh": "保留所有交易的详细记录"
+            },
+            "exchange_rates": {
+              "en": "Track exchange rates on transaction dates",
+              "zh": "跟踪交易日期的汇率"
+            },
+            "agreements": {
+              "en": "Maintain grant agreements and vesting schedules",
+              "zh": "保留授予协议和归属时间表"
+            }
+          }
+        }
+      },
+      "exercise_sell": {
+        "title": {
+          "en": "When to Exercise & Sell",
+          "zh": "何时行权和出售"
+        },
+        "exercise_timing": {
+          "title": {
+            "en": "Exercise Timing Considerations",
+            "zh": "行权时机考虑"
+          },
+          "early_exercise": {
+            "title": {
+              "en": "Early Exercise Scenarios",
+              "zh": "提前行权场景"
+            },
+            "ipo_soon": {
+              "en": "Company is likely to go public soon (lock in lower tax basis)",
+              "zh": "公司可能很快上市（锁定较低税基）"
+            },
+            "appreciation_expected": {
+              "en": "You believe stock price will appreciate significantly",
+              "zh": "您认为股价将大幅上涨"
+            },
+            "holding_period": {
+              "en": "You want to start the capital gains holding period",
+              "zh": "您想开始资本利得持有期"
+            },
+            "amt_minimize": {
+              "en": "ISOs: Minimize AMT impact by exercising small amounts annually",
+              "zh": "ISO：通过每年行权小额来最小化AMT影响"
+            }
+          },
+          "wait_to_exercise": {
+            "title": {
+              "en": "Wait to Exercise When",
+              "zh": "以下情况等待行权"
+            },
+            "uncertain_prospects": {
+              "en": "Uncertain about company's future prospects",
+              "zh": "对公司未来前景不确定"
+            },
+            "liquidity_needs": {
+              "en": "Need liquidity and can't afford exercise cost",
+              "zh": "需要流动性且无法承担行权成本"
+            },
+            "underwater": {
+              "en": "Stock price is below your strike price",
+              "zh": "股价低于您的行权价"
+            },
+            "expiration_risk": {
+              "en": "Approaching expiration but stock hasn't performed",
+              "zh": "临近到期但股票表现不佳"
+            }
+          }
+        },
+        "selling_strategies": {
+          "title": {
+            "en": "Selling Strategies",
+            "zh": "卖出策略：什么时候卖最划算？"
+          },
+          "immediate_sale": {
+            "title": {
+              "en": "Immediate Sale",
+              "zh": "策略一：行权立即卖（无风险套现）"
+            },
+            "description": {
+              "en": "Exercise and sell immediately",
+              "zh": "行权后马上卖出，锁定收益"
+            },
+            "lock_gains": {
+              "en": "Lock in gains",
+              "zh": "✅ 收益确定：赚多少心里有数，不怕股价跌"
+            },
+            "minimize_risk": {
+              "en": "Minimize risk",
+              "zh": "✅ 零持有风险：不用担心股价波动"
+            },
+            "higher_tax": {
+              "en": "Higher tax rate (ordinary income)",
+              "zh": "❌ 税负较重：行权收益按工资税率交税（最高37%）"
+            }
+          },
+          "hold_strategy": {
+            "title": {
+              "en": "Hold Strategy",
+              "zh": "策略二：行权后持有（博取更大收益）"
+            },
+            "description": {
+              "en": "Exercise and hold for 1+ years",
+              "zh": "行权后持有1年以上再卖出"
+            },
+            "capital_gains_rate": {
+              "en": "Qualify for capital gains rates",
+              "zh": "✅ 税率优惠：美国长期资本利得税率低（15-20% vs 37%工资税率）"
+            },
+            "further_appreciation": {
+              "en": "Benefit from further appreciation",
+              "zh": "✅ 收益潜力：如果股价继续涨，赚得更多"
+            },
+            "decline_risk": {
+              "en": "Risk of stock decline",
+              "zh": "❌ 持有风险：股价可能下跌，收益不确定"
+            }
+          },
+          "gradual_sale": {
+            "title": {
+              "en": "Gradual Sale",
+              "zh": "策略三：分批卖出（平衡风险收益）"
+            },
+            "description": {
+              "en": "Sell portions over time",
+              "zh": "行权后分批次卖出，不一次性清仓"
+            },
+            "diversify_risk": {
+              "en": "Diversify risk",
+              "zh": "✅ 风险分散：不把鸡蛋放一个篮子里"
+            },
+            "dollar_cost_averaging": {
+              "en": "Dollar-cost averaging",
+              "zh": "✅ 平均收益：高低价都卖一些，收益更稳定"
+            },
+            "spread_tax": {
+              "en": "Spread tax impact",
+              "zh": "✅ 税务优化：分散到不同年份，可能降低总税负"
+            }
+          },
+          "tax_example": {
+            "title": {
+              "en": "Complete Tax Example",
+              "zh": "完整税务实例：从行权到卖出"
+            },
+            "scenario": {
+              "en": "Example scenario with complete tax implications",
+              "zh": "假设你有1000股期权，行权价10美元：\n\n第一步 - 行权时（股价50美元）：\n• 应税收入：(50-10) × 1000 = 4万美元\n• 美国所得税：4万 × 37% = 1.48万美元\n\n第二步 - 卖出时（股价100美元）：\n• 资本利得：(100-50) × 1000 = 5万美元\n• 美国资本利得税：5万 × 20% = 1万美元\n• 国内资本利得税：5万 × 20% = 1万美元\n\n总收益：10万美元，总税负：3.48万美元，净收益：6.52万美元"
+            }
+          }
+        },
+        "risk_management": {
+          "title": {
+            "en": "Risk Management",
+            "zh": "风险管理"
+          },
+          "diversification_key": {
+            "en": "Diversification is Key: Don't put all your wealth in company stock, even if you're optimistic about its prospects.",
+            "zh": "多元化是关键：不要将所有财富投入公司股票，即使您对其前景乐观。"
+          },
+          "total_exposure": {
+            "en": "Consider your total compensation exposure to company performance",
+            "zh": "考虑您的总薪酬对公司业绩的敞口"
+          },
+          "target_percentages": {
+            "en": "Set target percentages for company stock in your portfolio",
+            "zh": "为投资组合中的公司股票设定目标百分比"
+          },
+          "regular_rebalance": {
+            "en": "Regularly rebalance as stock appreciates",
+            "zh": "随着股价上涨定期重新平衡"
+          },
+          "exit_strategy": {
+            "en": "Have an exit strategy before you need it",
+            "zh": "在需要之前制定退出策略"
+          }
+        }
+      }
+    },
+    "term_sheet": {
+      "title": {
+        "en": "Glossary of Terms",
+        "zh": "术语表"
+      },
+      "subtitle": {
+        "en": "Common abbreviations and terms used in stock compensation",
+        "zh": "股票补偿中常用的缩写和术语"
+      },
+      "terms": {
+        "iso": {
+          "abbr": {
+            "en": "ISO",
+            "zh": "ISO"
+          },
+          "full": {
+            "en": "Incentive Stock Options",
+            "zh": "激励性股票期权"
+          },
+          "description": {
+            "en": "Tax-advantaged stock options for employees with special holding period requirements",
+            "zh": "为员工提供的税收优惠股票期权，有特殊持有期要求"
+          }
+        },
+        "nso": {
+          "abbr": {
+            "en": "NSO",
+            "zh": "NSO"
+          },
+          "full": {
+            "en": "Non-Qualified Stock Options",
+            "zh": "非合格股票期权"
+          },
+          "description": {
+            "en": "Stock options without special tax treatment, taxed as ordinary income",
+            "zh": "无特殊税收待遇的股票期权，按普通收入征税"
+          }
+        },
+        "rsu": {
+          "abbr": {
+            "en": "RSU",
+            "zh": "RSU"
+          },
+          "full": {
+            "en": "Restricted Stock Units",
+            "zh": "限制性股票单位"
+          },
+          "description": {
+            "en": "Company shares that vest over time, no exercise required",
+            "zh": "随时间归属的公司股票，无需行权"
+          }
+        },
+        "espp": {
+          "abbr": {
+            "en": "ESPP",
+            "zh": "ESPP"
+          },
+          "full": {
+            "en": "Employee Stock Purchase Plan",
+            "zh": "员工股票购买计划"
+          },
+          "description": {
+            "en": "Program allowing employees to buy company stock at a discount",
+            "zh": "允许员工以折扣价购买公司股票的计划"
+          }
+        },
+        "amt": {
+          "abbr": {
+            "en": "AMT",
+            "zh": "AMT"
+          },
+          "full": {
+            "en": "Alternative Minimum Tax",
+            "zh": "替代最低税"
+          },
+          "description": {
+            "en": "US tax calculation that may apply to ISO exercises",
+            "zh": "可能适用于ISO行权的美国税收计算方式"
+          }
+        },
+        "ipo": {
+          "abbr": {
+            "en": "IPO",
+            "zh": "IPO"
+          },
+          "full": {
+            "en": "Initial Public Offering",
+            "zh": "首次公开募股"
+          },
+          "description": {
+            "en": "When a private company first sells shares to the public",
+            "zh": "私人公司首次向公众出售股票"
+          }
+        },
+        "fmv": {
+          "abbr": {
+            "en": "FMV",
+            "zh": "FMV"
+          },
+          "full": {
+            "en": "Fair Market Value",
+            "zh": "公允市场价值"
+          },
+          "description": {
+            "en": "The current trading price or estimated value of a stock",
+            "zh": "股票的当前交易价格或估计价值"
+          }
+        },
+        "ltcg": {
+          "abbr": {
+            "en": "LTCG",
+            "zh": "LTCG"
+          },
+          "full": {
+            "en": "Long-Term Capital Gains",
+            "zh": "长期资本利得"
+          },
+          "description": {
+            "en": "Tax rate for assets held longer than one year",
+            "zh": "持有超过一年的资产的税率"
+          }
+        },
+        "stcg": {
+          "abbr": {
+            "en": "STCG",
+            "zh": "STCG"
+          },
+          "full": {
+            "en": "Short-Term Capital Gains",
+            "zh": "短期资本利得"
+          },
+          "description": {
+            "en": "Tax rate for assets held one year or less",
+            "zh": "持有一年或更短时间的资产的税率"
+          }
+        },
+        "vesting": {
+          "abbr": {
+            "en": "Vesting",
+            "zh": "归属"
+          },
+          "full": {
+            "en": "Vesting Schedule",
+            "zh": "归属时间表"
+          },
+          "description": {
+            "en": "Timeline over which you earn the right to your stock compensation",
+            "zh": "您获得股票补偿权利的时间表"
+          }
+        },
+        "cliff": {
+          "abbr": {
+            "en": "Cliff",
+            "zh": "等待期"
+          },
+          "full": {
+            "en": "Cliff Vesting",
+            "zh": "等待期归属"
+          },
+          "description": {
+            "en": "Initial waiting period before any options or shares vest",
+            "zh": "任何期权或股票归属前的初始等待期"
+          }
+        },
+        "strike_price": {
+          "abbr": {
+            "en": "Strike Price",
+            "zh": "行权价"
+          },
+          "full": {
+            "en": "Exercise Price / Strike Price",
+            "zh": "行权价格/执行价格"
+          },
+          "description": {
+            "en": "Fixed price at which you can buy shares through options",
+            "zh": "您可以通过期权购买股票的固定价格"
+          }
+        },
+        "exercise": {
+          "abbr": {
+            "en": "Exercise",
+            "zh": "行权"
+          },
+          "full": {
+            "en": "Option Exercise",
+            "zh": "期权行权"
+          },
+          "description": {
+            "en": "The act of buying shares using your stock options",
+            "zh": "使用股票期权购买股票的行为"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": {
+        "en": "Ready to Calculate Your Options Value?",
+        "zh": "准备计算您的期权价值了吗？"
+      },
+      "subtitle": {
+        "en": "Use our calculator to estimate the value of your stock options and RSUs, and get personalized recommendations.",
+        "zh": "使用我们的计算器估算您的股票期权和RSU价值，并获得个性化建议。"
+      },
+      "button": {
+        "en": "Go to Calculator",
+        "zh": "前往计算器"
+      }
+    }
+  },
+  "calc": {
+    "hero": {
+      "title": {
+        "en": "Smart Stock Compensation Calculator",
+        "zh": "智能股票激励计算器"
+      },
+      "subtitle": {
+        "en": "Calculate accurate taxes based on your actual salary and get precise after-tax returns.",
+        "zh": "基于您的实际工资收入计算准确税费，获得精确的税后收益预估。"
+      }
+    },
+    "type_selector": {
+      "title": {
+        "en": "What type of stock compensation do you have?",
+        "zh": "您拥有哪种类型的股票激励？"
+      },
+      "options": {
+        "en": "Stock Options",
+        "zh": "股票期权"
+      },
+      "options_description": {
+        "en": "Need to pay to exercise, higher risk but higher potential return",
+        "zh": "需要掏钱行权，风险大收益高"
+      },
+      "rsu": {
+        "en": "RSUs (Restricted Stock Units)",
+        "zh": "RSU（限制性股票单位）"
+      },
+      "rsu_description": {
+        "en": "Automatically receive shares when vested, more convenient",
+        "zh": "到期自动给股票，比较省心"
+      }
+    },
+    "options": {
+      "title": {
+        "en": "Stock Options Calculator",
+        "zh": "期权收益计算器"
+      },
+      "description": {
+        "en": "Calculate your stock options value with accurate Chinese tax rates",
+        "zh": "基于中国税率精确计算您的期权收益"
+      },
+      "inputs": {
+        "annual_salary": {
+          "en": "Your Annual Salary (CNY)",
+          "zh": "您的年工资收入（人民币）"
+        },
+        "annual_salary_help": {
+          "en": "Used to calculate progressive tax rate for option exercise",
+          "zh": "用于计算行权时的累进税率"
+        },
+        "shares": {
+          "en": "Number of Option Shares",
+          "zh": "期权股数"
+        },
+        "strike_price": {
+          "en": "Strike Price (USD)",
+          "zh": "行权价（美元）"
+        },
+        "exercise_price": {
+          "en": "Exercise Price / Current Stock Price (USD)",
+          "zh": "行权时股价 / 当前股价（美元）"
+        },
+        "future_sale_price": {
+          "en": "Future Sale Price (USD) - Optional",
+          "zh": "未来卖出价（美元）- 可选"
+        },
+        "future_sale_help": {
+          "en": "Leave empty to calculate exercise-only scenario",
+          "zh": "留空则只计算行权场景，填写则计算完整收益"
+        },
+        "future_sale_placeholder": {
+          "en": "Leave empty for exercise-only calculation",
+          "zh": "留空只计算行权收益"
+        },
+        "exchange_rate": {
+          "en": "USD to CNY Exchange Rate",
+          "zh": "美元兑人民币汇率"
+        }
+      },
+      "results": {
+        "gross_gain_usd": {
+          "en": "Gross Gain (USD)",
+          "zh": "总收益（美元）"
+        },
+        "gross_gain_cny": {
+          "en": "Gross Gain (CNY)",
+          "zh": "总收益（人民币）"
+        },
+        "exercise_tax_rate": {
+          "en": "Your Tax Rate for Exercise",
+          "zh": "您的行权税率"
+        },
+        "exercise_tax_amount": {
+          "en": "Exercise Tax (CNY)",
+          "zh": "行权税费（人民币）"
+        },
+        "capital_gains_tax": {
+          "en": "Capital Gains Tax (CNY)",
+          "zh": "资本利得税（人民币）"
+        },
+        "total_tax": {
+          "en": "Total Tax Burden (CNY)",
+          "zh": "总税负（人民币）"
+        },
+        "net_gain_cny": {
+          "en": "Net Gain (CNY)",
+          "zh": "净收益（人民币）"
+        },
+        "net_gain_usd": {
+          "en": "Net Gain (USD)",
+          "zh": "净收益（美元）"
+        },
+        "effective_tax_rate": {
+          "en": "Effective Tax Rate",
+          "zh": "实际税率"
+        }
+      },
+      "labels": {
+        "exercise_tax_label": {
+          "en": "Exercise Tax:",
+          "zh": "行权税费："
+        },
+        "vesting_tax_label": {
+          "en": "Vesting Tax:",
+          "zh": "归属税费："
+        },
+        "capital_gains_label": {
+          "en": "Capital Gains:",
+          "zh": "资本利得："
+        },
+        "effective_rate_label": {
+          "en": "Effective Rate:",
+          "zh": "实际税率："
+        }
+      },
+      "tax_brackets": {
+        "title": {
+          "en": "China Progressive Tax Brackets",
+          "zh": "中国个人所得税税率表"
+        },
+        "description": {
+          "en": "Your exercise income will be taxed at progressive rates",
+          "zh": "您的行权收入将按以下累进税率征税"
+        },
+        "table": {
+          "headers": {
+            "taxable_income": {
+              "en": "Taxable Income (CNY)",
+              "zh": "应纳税所得额（元）"
+            },
+            "tax_rate": {
+              "en": "Tax Rate",
+              "zh": "税率"
+            },
+            "quick_deduction": {
+              "en": "Quick Deduction (CNY)",
+              "zh": "速算扣除数（元）"
+            }
+          },
+          "income_range_above": {
+            "en": "and above",
+            "zh": "以上"
+          }
+        },
+        "explanation": {
+          "title": {
+            "en": "Explanation:",
+            "zh": "说明："
+          },
+          "taxable_income_formula": {
+            "en": "Taxable Income = Annual Income - 60,000 CNY basic deduction",
+            "zh": "应纳税所得额 = 年收入 - 6万元基本减除费用"
+          },
+          "marginal_rate_explanation": {
+            "en": "Option exercise income is taxed at marginal rates, i.e., additional tax burden on your current income",
+            "zh": "期权行权收益会按边际税率计算，即在您当前收入基础上的额外税负"
+          },
+          "capital_gains_rate": {
+            "en": "Capital gains tax (when selling) is calculated at a fixed 20% rate",
+            "zh": "资本利得税（卖出时）按固定20%计算"
+          }
+        }
+      },
+      "calculation_breakdown": {
+        "title": {
+          "en": "Detailed Calculation Process",
+          "zh": "详细计算过程"
+        },
+        "step1": {
+          "title": {
+            "en": "Step 1: Calculate Exercise Gain",
+            "zh": "第一步：计算行权收益"
+          }
+        },
+        "step2": {
+          "title": {
+            "en": "Step 2: Calculate Exercise Tax",
+            "zh": "第二步：计算行权税费"
+          }
+        },
+        "step3": {
+          "title": {
+            "en": "Step 3: Calculate Capital Gains Tax (if applicable)",
+            "zh": "第三步：计算资本利得税（如适用）"
+          }
+        },
+        "step4": {
+          "title": {
+            "en": "Step 4: Calculate Final Net Gain",
+            "zh": "第四步：计算最终净收益"
+          }
+        },
+        "tax_breakdown_title": {
+          "en": "Progressive Tax Rate Breakdown:",
+          "zh": "阶梯税率计算详解："
+        },
+        "before_exercise": {
+          "en": "Before Exercise:",
+          "zh": "行权前："
+        },
+        "after_exercise": {
+          "en": "After Exercise:",
+          "zh": "行权后："
+        },
+        "annual_income": {
+          "en": "Annual Income:",
+          "zh": "年收入："
+        },
+        "taxable_income": {
+          "en": "Taxable Income:",
+          "zh": "应纳税所得额："
+        },
+        "tax_amount": {
+          "en": "Tax Amount:",
+          "zh": "应纳税额："
+        },
+        "total_income": {
+          "en": "Total Income:",
+          "zh": "总收入："
+        },
+        "option_income_distribution": {
+          "en": "Option income distribution across tax brackets:",
+          "zh": "期权收益在各税率档次的分布："
+        },
+        "tax_bracket": {
+          "en": "bracket",
+          "zh": "档次"
+        },
+        "option_tax_summary": {
+          "en": "Option Income Tax Summary:",
+          "zh": "期权收益税负汇总："
+        },
+        "total_tax_burden": {
+          "en": "Total Tax Burden",
+          "zh": "总税负"
+        },
+        "actual_marginal_rate": {
+          "en": "Actual Marginal Rate",
+          "zh": "实际边际税率"
+        },
+        "formulas": {
+          "exercise_gain_usd": {
+            "en": "Exercise Gain (USD) = (Exercise Price - Strike Price) × Shares",
+            "zh": "行权收益（美元）= (行权时股价 - 行权价) × 股数"
+          },
+          "exercise_gain_cny": {
+            "en": "Exercise Gain (CNY) = Exercise Gain (USD) × Exchange Rate",
+            "zh": "行权收益（人民币）= 行权收益（美元) × 汇率"
+          },
+          "marginal_tax_rate": {
+            "en": "Marginal Tax Rate = Based on your total income bracket",
+            "zh": "边际税率 = 基于您的总收入所在税率档次"
+          },
+          "exercise_tax": {
+            "en": "Exercise Tax = Exercise Gain (CNY) × Marginal Tax Rate",
+            "zh": "行权税费 = 行权收益（人民币）× 边际税率"
+          },
+          "capital_gains": {
+            "en": "Capital Gains = (Sale Price - Exercise Price) × Shares × Exchange Rate",
+            "zh": "资本利得 = (卖出价 - 行权价) × 股数 × 汇率"
+          },
+          "capital_gains_tax": {
+            "en": "Capital Gains Tax = Capital Gains × 20%",
+            "zh": "资本利得税 = 资本利得 × 20%"
+          },
+          "total_tax": {
+            "en": "Total Tax = Exercise Tax + Capital Gains Tax",
+            "zh": "总税费 = 行权税费 + 资本利得税"
+          },
+          "net_gain": {
+            "en": "Net Gain = Total Gain - Total Tax",
+            "zh": "净收益 = 总收益 - 总税费"
+          }
+        }
+      }
+    },
+    "rsu": {
+      "title": {
+        "en": "RSU Calculator",
+        "zh": "RSU收益计算器"
+      },
+      "description": {
+        "en": "Calculate your RSU value with accurate Chinese tax rates",
+        "zh": "基于中国税率精确计算您的RSU收益"
+      },
+      "inputs": {
+        "annual_salary": {
+          "en": "Your Annual Salary (CNY)",
+          "zh": "您的年工资收入（人民币）"
+        },
+        "annual_salary_help": {
+          "en": "Used to calculate progressive tax rate for RSU vesting",
+          "zh": "用于计算RSU归属时的累进税率"
+        },
+        "total_shares": {
+          "en": "Total RSU Shares",
+          "zh": "RSU总股数"
+        },
+        "vested_shares": {
+          "en": "Vested Shares",
+          "zh": "已归属股数"
+        },
+        "vesting_price": {
+          "en": "Vesting Price (USD)",
+          "zh": "归属时股价（美元）"
+        },
+        "current_price": {
+          "en": "Current Stock Price (USD)",
+          "zh": "当前股价（美元）"
+        },
+        "future_sale_price": {
+          "en": "Future Sale Price (USD) - Optional",
+          "zh": "未来卖出价（美元）- 可选"
+        },
+        "future_sale_help": {
+          "en": "Leave empty to calculate vesting-only scenario",
+          "zh": "留空则只计算归属场景，填写则计算完整收益"
+        },
+        "future_sale_placeholder": {
+          "en": "Leave empty for vesting-only calculation",
+          "zh": "留空只计算归属收益"
+        },
+        "exchange_rate": {
+          "en": "USD to CNY Exchange Rate",
+          "zh": "美元兑人民币汇率"
+        }
+      },
+      "results": {
+        "vested_value_usd": {
+          "en": "Vested Value (USD)",
+          "zh": "已归属价值（美元）"
+        },
+        "vested_value_cny": {
+          "en": "Vested Value (CNY)",
+          "zh": "已归属价值（人民币）"
+        },
+        "vesting_tax_rate": {
+          "en": "Your Tax Rate for Vesting",
+          "zh": "您的归属税率"
+        },
+        "vesting_tax_amount": {
+          "en": "Vesting Tax (CNY)",
+          "zh": "归属税费（人民币）"
+        },
+        "capital_gains_tax": {
+          "en": "Capital Gains Tax (CNY)",
+          "zh": "资本利得税（人民币）"
+        },
+        "total_tax": {
+          "en": "Total Tax Burden (CNY)",
+          "zh": "总税负（人民币）"
+        },
+        "net_gain_cny": {
+          "en": "Net Gain (CNY)",
+          "zh": "净收益（人民币）"
+        },
+        "net_gain_usd": {
+          "en": "Net Gain (USD)",
+          "zh": "净收益（美元）"
+        },
+        "effective_tax_rate": {
+          "en": "Effective Tax Rate",
+          "zh": "实际税率"
+        }
+      },
+      "labels": {
+        "vesting_tax_label": {
+          "en": "Vesting Tax:",
+          "zh": "归属税费："
+        },
+        "capital_gains_label": {
+          "en": "Capital Gains:",
+          "zh": "资本利得："
+        },
+        "effective_rate_label": {
+          "en": "Effective Rate:",
+          "zh": "实际税率："
+        }
+      },
+      "calculation_breakdown": {
+        "title": {
+          "en": "Detailed Calculation Process",
+          "zh": "详细计算过程"
+        },
+        "step1": {
+          "title": {
+            "en": "Step 1: Calculate Vesting Value",
+            "zh": "第一步：计算归属价值"
+          }
+        },
+        "step2": {
+          "title": {
+            "en": "Step 2: Calculate Vesting Tax",
+            "zh": "第二步：计算归属税费"
+          }
+        },
+        "step3": {
+          "title": {
+            "en": "Step 3: Calculate Capital Gains Tax (if applicable)",
+            "zh": "第三步：计算资本利得税（如适用）"
+          }
+        },
+        "step4": {
+          "title": {
+            "en": "Step 4: Calculate Final Net Gain",
+            "zh": "第四步：计算最终净收益"
+          }
+        },
+        "tax_breakdown_title": {
+          "en": "Progressive Tax Rate Breakdown:",
+          "zh": "阶梯税率计算详解："
+        },
+        "before_vesting": {
+          "en": "Before Vesting:",
+          "zh": "归属前："
+        },
+        "after_vesting": {
+          "en": "After Vesting:",
+          "zh": "归属后："
+        },
+        "annual_income": {
+          "en": "Annual Income:",
+          "zh": "年收入："
+        },
+        "taxable_income": {
+          "en": "Taxable Income:",
+          "zh": "应纳税所得额："
+        },
+        "tax_amount": {
+          "en": "Tax Amount:",
+          "zh": "应纳税额："
+        },
+        "total_income": {
+          "en": "Total Income:",
+          "zh": "总收入："
+        },
+        "rsu_income_distribution": {
+          "en": "RSU income distribution across tax brackets:",
+          "zh": "RSU收益在各税率档次的分布："
+        },
+        "tax_bracket": {
+          "en": "bracket",
+          "zh": "档次"
+        },
+        "rsu_tax_summary": {
+          "en": "RSU Income Tax Summary:",
+          "zh": "RSU收益税负汇总："
+        },
+        "total_tax_burden": {
+          "en": "Total Tax Burden",
+          "zh": "总税负"
+        },
+        "actual_marginal_rate": {
+          "en": "Actual Marginal Rate",
+          "zh": "实际边际税率"
+        },
+        "formulas": {
+          "vesting_value_usd": {
+            "en": "Vesting Value (USD) = Vested Shares × Vesting Price",
+            "zh": "归属价值（美元）= 已归属股数 × 归属时股价"
+          },
+          "vesting_value_cny": {
+            "en": "Vesting Value (CNY) = Vesting Value (USD) × Exchange Rate",
+            "zh": "归属价值（人民币）= 归属价值（美元) × 汇率"
+          },
+          "vesting_tax": {
+            "en": "Vesting Tax = RSU Value (CNY) × Marginal Tax Rate",
+            "zh": "归属税费 = RSU价值（人民币）× 边际税率"
+          },
+          "capital_gains": {
+            "en": "Capital Gains = (Sale Price - Vesting Price) × Shares × Exchange Rate",
+            "zh": "资本利得 = (卖出价 - 归属价) × 股数 × 汇率"
+          },
+          "capital_gains_tax": {
+            "en": "Capital Gains Tax = Capital Gains × 20%",
+            "zh": "资本利得税 = 资本利得 × 20%"
+          },
+          "total_tax": {
+            "en": "Total Tax = Vesting Tax + Capital Gains Tax",
+            "zh": "总税费 = 归属税费 + 资本利得税"
+          },
+          "net_gain": {
+            "en": "Net Gain = Total Gain - Total Tax",
+            "zh": "净收益 = 总收益 - 总税费"
+          }
+        }
+      }
+    },
+    "advisor": {
+      "title": {
+        "en": "Decision Advisor",
+        "zh": "决策顾问"
+      },
+      "inputs": {
+        "expiration": {
+          "label": {
+            "en": "Time to Options Expiration (years)",
+            "zh": "期权到期时间（年）"
+          },
+          "options": {
+            "6months": {
+              "en": "6 months",
+              "zh": "6个月"
+            },
+            "1year": {
+              "en": "1 year",
+              "zh": "1年"
+            },
+            "2years": {
+              "en": "2 years",
+              "zh": "2年"
+            },
+            "5years": {
+              "en": "5+ years",
+              "zh": "5年以上"
+            }
+          }
+        },
+        "company_stage": {
+          "label": {
+            "en": "Company Stage",
+            "zh": "公司阶段"
+          },
+          "options": {
+            "pre_ipo": {
+              "en": "Pre-IPO",
+              "zh": "IPO前"
+            },
+            "public": {
+              "en": "Recently Public",
+              "zh": "最近上市"
+            },
+            "mature": {
+              "en": "Mature Public Company",
+              "zh": "成熟上市公司"
+            }
+          }
+        },
+        "risk_tolerance": {
+          "label": {
+            "en": "Risk Tolerance",
+            "zh": "风险承受能力"
+          },
+          "options": {
+            "low": {
+              "en": "Low - Prefer certainty",
+              "zh": "低 - 偏好确定性"
+            },
+            "medium": {
+              "en": "Medium - Balanced approach",
+              "zh": "中等 - 平衡方法"
+            },
+            "high": {
+              "en": "High - Willing to take risks",
+              "zh": "高 - 愿意承担风险"
+            }
+          }
+        },
+        "liquidity_needs": {
+          "label": {
+            "en": "Liquidity Needs",
+            "zh": "流动性需求"
+          },
+          "options": {
+            "low": {
+              "en": "Low - Don't need cash soon",
+              "zh": "低 - 短期内不需要现金"
+            },
+            "medium": {
+              "en": "Medium - Some upcoming expenses",
+              "zh": "中等 - 有一些即将到来的支出"
+            },
+            "high": {
+              "en": "High - Need cash within 1 year",
+              "zh": "高 - 1年内需要现金"
+            }
+          }
+        },
+        "cash_position": {
+          "label": {
+            "en": "Current Cash Position",
+            "zh": "当前现金状况"
+          },
+          "options": {
+            "low": {
+              "en": "Low - Limited savings",
+              "zh": "低 - 储蓄有限"
+            },
+            "adequate": {
+              "en": "Adequate - 6+ months expenses",
+              "zh": "充足 - 6个月以上支出"
+            },
+            "high": {
+              "en": "High - Significant savings",
+              "zh": "高 - 大量储蓄"
+            }
+          }
+        }
+      },
+      "recommendations": {
+        "title": {
+          "en": "Personalized Recommendations",
+          "zh": "个性化建议"
+        },
+        "consider_exercise_sell": {
+          "title": {
+            "en": "Consider Exercise & Sell",
+            "zh": "考虑行权并出售"
+          },
+          "message": {
+            "en": "Given your high liquidity needs, exercising and selling options could provide immediate cash flow.",
+            "zh": "鉴于您的高流动性需求，行权并出售期权可以提供即时现金流。"
+          }
+        },
+        "hold_for_ipo": {
+          "title": {
+            "en": "Hold for Potential IPO",
+            "zh": "持有等待潜在IPO"
+          },
+          "message": {
+            "en": "Pre-IPO companies often see significant gains. Consider holding if you can afford the risk.",
+            "zh": "IPO前公司通常会有显著收益。如果您能承担风险，请考虑持有。"
+          }
+        },
+        "expiration_risk": {
+          "title": {
+            "en": "Expiration Risk",
+            "zh": "到期风险"
+          },
+          "message": {
+            "en": "With less than 1 year to expiration, consider exercising soon to avoid losing value.",
+            "zh": "距离到期不足1年，请考虑尽快行权以避免价值损失。"
+          }
+        },
+        "sell_vested_rsu": {
+          "title": {
+            "en": "Sell Vested RSUs",
+            "zh": "出售已归属RSU"
+          },
+          "message": {
+            "en": "Consider selling vested RSUs to meet liquidity needs and diversify your portfolio.",
+            "zh": "考虑出售已归属的RSU以满足流动性需求并分散投资组合。"
+          }
+        },
+        "diversification_recommended": {
+          "title": {
+            "en": "Diversification Recommended",
+            "zh": "建议多元化"
+          },
+          "message": {
+            "en": "Mature companies may have limited upside. Consider selling to diversify investments.",
+            "zh": "成熟公司可能上涨空间有限。考虑出售以分散投资。"
+          }
+        },
+        "cash_flow_concern": {
+          "title": {
+            "en": "Cash Flow Concern",
+            "zh": "现金流担忧"
+          },
+          "message": {
+            "en": "Exercise costs may strain your finances. Consider cashless exercise or waiting for better liquidity.",
+            "zh": "行权成本可能会使您的财务紧张。考虑无现金行权或等待更好的流动性。"
+          }
+        },
+        "general_guidance": {
+          "title": {
+            "en": "General Guidance",
+            "zh": "一般指导"
+          },
+          "message": {
+            "en": "Diversification is key. Don't put all your wealth in company stock, regardless of your optimism.",
+            "zh": "多元化是关键。无论您多么乐观，都不要将所有财富投入公司股票。"
+          }
+        }
+      },
+      "disclaimer": {
+        "en": "This is educational guidance only. Always consult with financial and tax professionals before making decisions.",
+        "zh": "这仅为教育指导。在做决定前请务必咨询金融和税务专业人士。"
+      }
+    },
+    "cta": {
+      "title": {
+        "en": "Need More Information?",
+        "zh": "需要更多信息？"
+      },
+      "subtitle": {
+        "en": "Learn about the basics of stock options, RSUs, and tax implications in our comprehensive guide.",
+        "zh": "在我们的综合指南中了解股票期权、RSU和税务影响的基础知识。"
+      },
+      "button": {
+        "en": "Read the 101 Guide",
+        "zh": "阅读基础指南"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "exercise-or-not"
+compatibility_date = "2024-09-15"
+
+[env.production]
+name = "exercise-or-not"
+
+[[env.production.routes]]
+pattern = "exercise-or-not.pages.dev/*"
+
+[build]
+command = "pnpm build"
+cwd = "."
+watch_dir = "src"
