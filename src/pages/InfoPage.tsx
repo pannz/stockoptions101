@@ -380,9 +380,9 @@ const InfoPage: React.FC = () => {
                   <h4 className="font-semibold text-purple-800 mb-2">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.title')}</h4>
                   <p className="text-purple-700 text-sm mb-2">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.description')}</p>
                   <ul className="text-purple-600 text-xs space-y-1">
-                    <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.capital_gains_rate')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.further_appreciation')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.decline_risk')}</li>
+                    <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.double_tax')}</li>
                   </ul>
                 </div>
 
@@ -393,16 +393,8 @@ const InfoPage: React.FC = () => {
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.diversify_risk')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.dollar_cost_averaging')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.spread_tax')}</li>
+                    <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.complex_tax_claim')}</li>
                   </ul>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.exercise_sell.selling_strategies.tax_example.title')}</h3>
-              <div className="bg-blue-50 p-6 rounded-lg">
-                <div className="whitespace-pre-line text-blue-800 text-sm">
-                  {t('info.sections.exercise_sell.selling_strategies.tax_example.scenario')}
                 </div>
               </div>
             </div>

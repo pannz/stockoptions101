@@ -2,7 +2,7 @@
   "header": {
     "title": {
       "en": "Stock Options & RSUs Guide",
-      "zh": "股票期权和RSU指北"
+      "zh": "股票期权和 RSU 指北"
     }
   },
   "nav": {
@@ -69,7 +69,7 @@
           },
           "example": {
             "en": "Example: You have options with a $10 strike price. If the stock trades at $50, you can buy at $10 and immediately sell at $50, making $40 per share profit. Wait wait, can you really get $40k in your pocket?",
-            "zh": "举个例子：2022年公司给你期权，约定价格是10美元一股。到了2024年公司上市，股价涨到50美元。这时你可以用10美元买入，立马50美元卖出，每股净赚40美元！如果有1000股期权，就是4万美元到手。等等，你真的能到手 4 万美元吗？"
+            "zh": "举个例子：2022 年公司给你期权，约定价格是 10 美元一股。到了 2024 年公司上市，股价涨到 50 美元。这时你可以用 10 美元买入，立马 50 美元卖出，每股净赚 40 美元！如果有 1000 股期权，就是 4 万美元到手。等等，你真的能到手 4 万美元吗？"
           }
         },
         "types": {
@@ -80,7 +80,7 @@
           "iso": {
             "title": {
               "en": "ISO (Incentive Stock Options)",
-              "zh": "ISO - 激励性期权（税收友好型）"
+              "zh": "ISO (Incentive Stock Options) - 激励性期权（税收友好型）"
             },
             "features": {
               "tax_advantaged": {
@@ -89,11 +89,11 @@
               },
               "holding_period": {
                 "en": "Must hold 2+ years from grant, 1+ year from exercise",
-                "zh": "⏰ 持有要求：拿到期权2年后+行权1年后才能享受优惠"
+                "zh": "⏰ 持有要求：拿到期权 2 年后 + 行权 1 年后才能享受优惠"
               },
               "amt": {
                 "en": "AMT (Alternative Minimum Tax) implications",
-                "zh": "⚠️ 注意AMT：行权时可能触发替代最低税，需要计算"
+                "zh": "⚠️ 注意 AMT (Alternative Minimum Tax)：行权时可能触发替代最低税，需要计算"
               },
               "employees_only": {
                 "en": "Only for employees, not contractors",
@@ -104,7 +104,7 @@
           "nso": {
             "title": {
               "en": "NSO (Non-Qualified Stock Options)",
-              "zh": "NSO - 非合格期权（更灵活）"
+              "zh": "NSO (Nonqualified Stock Options) - 非合格期权（更灵活）"
             },
             "features": {
               "ordinary_income": {
@@ -127,7 +127,7 @@
           },
           "note": {
             "en": "The ISO/NSO distinction commonly used in the US may not directly apply in China's context. Chinese companies typically structure their equity incentives based on local regulations and practical needs. For instance, many tech companies using VIE structures need to consider specific requirements around option exercise registration. While understanding ISO/NSO concepts is helpful, the actual implementation in China often requires customized solutions that work within the local regulatory framework. In practice, Chinese companies tend to favor NSO-like structures for their flexibility.",
-            "zh": "美国常见的ISO/NSO分类在中国可能并不完全适用。国内公司通常需要根据本地法规和实际需求来设计股权激励方案。比如很多采用VIE架构的科技公司，在期权行权时都需要考虑特殊的备案要求。了解ISO/NSO的概念有帮助，但在国内落地时往往需要因地制宜，设计符合本地监管要求的方案。实践中，国内公司更常见的是类似NSO的灵活方案。"
+            "zh": "美国常见的 ISO/NSO 分类在中国可能并不完全适用。国内公司通常需要根据本地法规和实际需求来设计股权激励方案。比如很多采用 VIE 架构的科技公司，在期权行权时都需要考虑特殊的备案要求。实践中，国内公司更常见的是类似NSO的灵活方案。"
           }
         },
         "vesting": {
@@ -137,7 +137,7 @@
           },
           "description": {
             "en": "Most options vest over time, typically 4 years with a 1-year cliff:",
-            "zh": "外企一般不会一次性给你所有期权，而是分批\"解锁\"。典型的套路是4年解锁完，第一年是等待期（一股都拿不到），之后每年解锁一部分："
+            "zh": "企业一般不会一次性给你所有期权，而是分批\"解锁\"。典型的套路是 4 年解锁完，第一年是等待期（一股都拿不到），之后每年解锁一部分："
           },
           "year1": {
             "en": [
@@ -145,7 +145,7 @@
               "Cliff"
             ],
             "zh": [
-              "第1年 ：0%",
+              "第 1 年 ：0%",
               "等待期，防止你刚入职就跑路"
             ]
           },
@@ -154,7 +154,7 @@
               "Year 2 : 25%"
             ],
             "zh": [
-              "第2年 ：25%",
+              "第 2 年 ：25%",
               "熬过第一年，开始有收获"
             ]
           },
@@ -163,7 +163,7 @@
               "Year 3 : 50%"
             ],
             "zh": [
-              "第3年 ：50%",
+              "第 3 年 ：50%",
               "过半了，开始有意思"
             ]
           },
@@ -172,7 +172,7 @@
               "Year 4 : 75%"
             ],
             "zh": [
-              "第4年 ：75%",
+              "第 4 年 ：75%",
               "大部分到手"
             ]
           },
@@ -181,13 +181,13 @@
               "Year 5 : 100%"
             ],
             "zh": [
-              "第5年 ：100%",
+              "第 5 年 ：100%",
               "全部解锁，自由了！"
             ]
           },
           "note": {
-            "en": "The vesting schedule may vary depending on the company's policy. In previous years, stock options vested 25% annually over 4 years to reach 100%. However, in recent years, many companies have adopted more employee-friendly vesting schedules - for example, 25% after the first year, then vesting quarterly or monthly for the remaining three years to reach 100%. This design makes vesting more flexible and provides faster incentives for employees.",
-            "zh": "归属时间表可能因公司政策不同而不同，前些年，4 年的期权成熟期每年成熟 25%，分四年完成 100%。但是近年来很多公司都改成了对员工更有好的归属时间表，比如还是第一年结束成熟 25%，之后每个季度或者是每个月都按比例成熟对应的比例，也是分四年完成 100%。这样的设计可以让期权的归属更加灵活，对员工的激励更快。"
+            "en": "The vesting schedule may vary depending on the company's policy. In previous years, stock options vested 25% annually over 4 years to reach 100%. However, in recent years, many companies have adopted more employee-friendly vesting schedules - for example, 25% after the first year, then vesting quarterly or monthly for the remaining three years to reach 100%. This design makes vesting more flexible and provides faster incentives for employees. Additionally, options have an expiration risk. If not exercised before expiration, they will expire. The typical expiration period is 10 years from grant, but some companies may extend it. Additionally, unvested options of terminated employees will be forfeited, and vested options must be exercised and sold within 6 months after termination. If not done, they will also expire.",
+            "zh": "归属时间表可能因公司政策不同而不同，前些年，4 年的期权成熟期每年成熟 25%，分四年完成 100%。但是近年来很多公司都改成了对员工更有好的归属时间表，比如还是第一年结束成熟 25%，之后每个季度或者是每个月都按比例成熟对应的比例，也是分四年完成 100%。这样的设计可以让期权的归属更加灵活，对员工的激励更快。同时需要额外注意的是，期权是会有过期风险的，再过期之前没有行权的话，期权就会归零。一般情况下，期权过期时间是在授予之日起 10 年，但是也有一些公司会根据实际情况延长过期时间。还有就是离职/被裁员员工的期权未授予部分会直接作废，已授予部分通常再 6 个月内需要行权和卖出，如果没有及时行权和卖出，也是归零。"
           }
         }
       },
@@ -203,17 +203,17 @@
           },
           "description": {
             "en": "RSUs are company shares given to employees that vest over time. Unlike options, you don't pay to exercise them. When they vest, you automatically own the shares and owe taxes on their full market value. In China, only companies that have gone public can offer RSUs. For pre-IPO companies, only options can be granted. However, in other countries, some unicorn companies can also choose to directly grant RSUs to employees.",
-            "zh": "公司直接承诺给你股票，到期自动到账，不用你掏钱买！比如公司说给你1000股RSU，分4年给，每年给250股。时间一到，股票就自动转到你账户，你就是股东了。在国内，只有公司上市了才可以给员工RSU。未上市只能是授予期权，但是在国外，一些独角兽企业也可以选择直接给员工RSU。"
+            "zh": "公司直接承诺给你股票，到期自动到账，不用你掏钱买！比如公司说给你 1000 股 RSU，分 4 年给，每年给 250 股。时间一到，股票就自动转到你账户，你就是股东了。在国内，只有公司上市了才可以给员工 RSU。未上市只能是授予期权，但是在国外，一些独角兽企业也可以选择直接给员工 RSU。"
           },
           "key_difference": {
             "en": "Key Difference: With RSUs, you own actual shares once vested. With options, you have the right to buy shares at a specific price.",
-            "zh": "跟期权的区别：RSU到期就是真股票，不用你操心；期权只是个\"购买权\"，还得你掏钱买。所以RSU更省心，期权风险更大但潜在收益也更高。"
+            "zh": "跟期权的区别：RSU 到期就是真股票，不用你操心；期权只是个\"购买权\"，还得你掏钱买。所以RSU更省心，期权风险更大但潜在收益也更高。"
           }
         },
         "vesting_taxation": {
           "title": {
             "en": "RSU Vesting & Taxation",
-            "zh": "RSU归属与税务"
+            "zh": "RSU 归属与税务"
           },
           "vesting_events": {
             "title": {
@@ -222,7 +222,7 @@
             },
             "description": {
               "en": "RSUs typically vest quarterly over 3-4 years",
-              "zh": "RSU通常在3-4年内按季度归属"
+              "zh": "RSU通常在 3-4 年内按季度归属"
             }
           },
           "tax_on_vesting": {
@@ -350,29 +350,29 @@
             },
             "iso": {
               "en": "ISO: No tax on exercise, but AMT may apply. Tax on sale based on holding period.",
-              "zh": "💡 ISO比较友好：行权时暂时不用交税，但小心AMT这个坑。卖股票时才真正算税，持有时间够长的话税率更低。"
+              "zh": "💡 ISO比较友好：行权时暂时不用交税，但小心 AMT (Alternative Minimum Tax) 这个坑。卖股票时才真正算税，持有时间够长的话税率更低。"
             },
             "nso": {
               "en": "NSO: Ordinary income tax on exercise (fair market value - strike price)",
-              "zh": "💸 NSO比较直接：行权那一刻就得按工资收入交税。比如股价50美元，行权价10美元，那40美元差价要按你的工资税率交税。"
+              "zh": "💸 NSO 比较直接：行权那一刻就得按工资收入交税。比如股价 50 美元，行权价 10 美元，那 40 美元差价要按你的工资税率交税。"
             },
             "capital_gains": {
               "en": "Capital gains tax on any additional gains when selling shares",
-              "zh": "📈 卖出时的第二重税：行权后如果不立即卖出，等股价涨了再卖，涨幅部分要交资本利得税。持有1年以上享受长期资本利得税率（通常15-20%），不到1年按普通收入税率算。"
+              "zh": "📈 卖出时的第二重税：行权后如果不立即卖出，等股价涨了再卖，涨幅部分要交资本利得税。持有1年以上享受长期资本利得税率（通常 15-20%），不到 1 年按普通收入税率算。"
             }
           },
           "rsus": {
             "title": {
               "en": "For RSUs:",
-              "zh": "RSU的税务更简单："
+              "zh": "RSU 的税务更简单："
             },
             "vesting_tax": {
               "en": "Ordinary income tax on vesting date (full market value)",
-              "zh": "🎯 股票到账即交税：RSU一归属，整个市场价值都要按工资收入交税。比如1000股×50美元=5万美元，全部算收入。"
+              "zh": "🎯 股票到账即交税：RSU 一归属，整个市场价值都要按工资收入交税。比如 1000 股 × 50 美元 = 5 万美元，全部算收入。"
             },
             "sale_tax": {
               "en": "Capital gains tax on gains/losses from vesting price to sale price",
-              "zh": "📊 卖出时的第二重税：RSU归属后如果不立即卖，等股价变化后再卖，价差要交资本利得税。比如归属时50美元，涨到100美元再卖，那50美元涨幅要交资本利得税。"
+              "zh": "📊 卖出时的第二重税：RSU 归属后如果不立即卖，等股价变化后再卖，价差要交资本利得税。比如归属时 50 美元，涨到 100 美元再卖，那 50 美元涨幅要交资本利得税。"
             },
             "withholding": {
               "en": "Withholding typically happens automatically",
@@ -407,15 +407,15 @@
           },
           "residency_rules": {
             "en": "Different rules may apply based on your tax residency status",
-            "zh": "🏠 居民身份很关键：在国内住满183天就算税务居民，规则完全不一样，一定要搞清楚。"
+            "zh": "🏠 居民身份很关键：在国内住满 183 天就算税务居民，规则完全不一样，一定要搞清楚。"
           },
           "capital_gains_china": {
             "en": "Capital gains from stock sales are subject to China's tax rates",
-            "zh": "💰 国内资本利得税：卖股票的收益在国内按20%固定税率征收！这比美国的长期资本利得税率（15-20%）要高，而且没有持有期优惠。"
+            "zh": "💰 国内资本利得税：卖股票的收益在国内按 20% 固定税率征收！这比美国的长期资本利得税率（15-20%）要高，而且没有持有期优惠。"
           },
           "complete_tax_chain": {
             "en": "Complete tax implications from grant to final sale",
-            "zh": "🔗 完整税务链条：拿期权→行权交税→卖出再交税，每个环节都有税务影响，千万别只算前面忘了后面。"
+            "zh": "🔗 完整税务链条：拿期权 → 行权交税 → 卖出再交税，每个环节都有税务影响，千万别只算前面忘了后面。"
           }
         },
         "planning": {
@@ -490,7 +490,7 @@
             },
             "amt_minimize": {
               "en": "ISOs: Minimize AMT impact by exercising small amounts annually",
-              "zh": "ISO：通过每年行权小额来最小化AMT影响"
+              "zh": "ISO：通过每年行权小额来最小化 AMT (Alternative Minimum Tax) 影响"
             }
           },
           "wait_to_exercise": {
@@ -540,21 +540,17 @@
             },
             "higher_tax": {
               "en": "Higher tax rate (ordinary income)",
-              "zh": "❌ 税负较重：行权收益按工资税率交税（最高37%）"
+              "zh": "❌ 税负集中：行权当期即需缴纳工资薪金个税（最高 45%），行权直接卖出没有价差，没有资本利得税"
             }
           },
           "hold_strategy": {
             "title": {
               "en": "Hold Strategy",
-              "zh": "策略二：行权后持有（博取更大收益）"
+              "zh": "策略二：行权后持有（押注未来增长）"
             },
             "description": {
-              "en": "Exercise and hold for 1+ years",
-              "zh": "行权后持有1年以上再卖出"
-            },
-            "capital_gains_rate": {
-              "en": "Qualify for capital gains rates",
-              "zh": "✅ 税率优惠：美国长期资本利得税率低（15-20% vs 37%工资税率）"
+              "en": "Exercise and hold for further sell",
+              "zh": "行权后持有，等待股价进一步上涨后再卖出"
             },
             "further_appreciation": {
               "en": "Benefit from further appreciation",
@@ -562,7 +558,11 @@
             },
             "decline_risk": {
               "en": "Risk of stock decline",
-              "zh": "❌ 持有风险：股价可能下跌，收益不确定"
+              "zh": "❌ 股价可能跌回甚至低于行权价，纸面财富缩水"
+            },
+            "double_tax": {
+              "en": "Double tax: exercise tax + capital gains tax",
+              "zh": "❌ 双重征税：行权时先交工资个税，卖出时再交 20% 资本利得税"
             }
           },
           "gradual_sale": {
@@ -572,7 +572,7 @@
             },
             "description": {
               "en": "Sell portions over time",
-              "zh": "行权后分批次卖出，不一次性清仓"
+              "zh": "行权后分批次卖出，不一次性清仓，避免踩在高点或低点"
             },
             "diversify_risk": {
               "en": "Diversify risk",
@@ -584,17 +584,11 @@
             },
             "spread_tax": {
               "en": "Spread tax impact",
-              "zh": "✅ 税务优化：分散到不同年份，可能降低总税负"
-            }
-          },
-          "tax_example": {
-            "title": {
-              "en": "Complete Tax Example",
-              "zh": "完整税务实例：从行权到卖出"
+              "zh": "✅ 税务优化：在不同年度分散出售，避免当年综合所得税负过高"
             },
-            "scenario": {
-              "en": "Example scenario with complete tax implications",
-              "zh": "假设你有1000股期权，行权价10美元：\n\n第一步 - 行权时（股价50美元）：\n• 应税收入：(50-10) × 1000 = 4万美元\n• 美国所得税：4万 × 37% = 1.48万美元\n\n第二步 - 卖出时（股价100美元）：\n• 资本利得：(100-50) × 1000 = 5万美元\n• 美国资本利得税：5万 × 20% = 1万美元\n• 国内资本利得税：5万 × 20% = 1万美元\n\n总收益：10万美元，总税负：3.48万美元，净收益：6.52万美元"
+            "complex_tax_claim": {
+              "en": "Complex tax claim, need to plan selling timing and tax filing",
+              "zh": "❌ 操作复杂：需要规划出售节奏与报税"
             }
           }
         },
@@ -1007,7 +1001,7 @@
           },
           "taxable_income_formula": {
             "en": "Taxable Income = Annual Income - 60,000 CNY basic deduction",
-            "zh": "应纳税所得额 = 年收入 - 6万元基本减除费用"
+            "zh": "应纳税所得额 = 年收入 - 6 万元基本减除费用"
           },
           "marginal_rate_explanation": {
             "en": "Option exercise income is taxed at marginal rates, i.e., additional tax burden on your current income",
@@ -1015,7 +1009,7 @@
           },
           "capital_gains_rate": {
             "en": "Capital gains tax (when selling) is calculated at a fixed 20% rate",
-            "zh": "资本利得税（卖出时）按固定20%计算"
+            "zh": "资本利得税（卖出时）按固定 20% 计算"
           }
         }
       },
@@ -1430,7 +1424,7 @@
             },
             "high": {
               "en": "High - Need cash within 1 year",
-              "zh": "高 - 1年内需要现金"
+              "zh": "高 - 1 年内需要现金"
             }
           }
         },
@@ -1446,7 +1440,7 @@
             },
             "adequate": {
               "en": "Adequate - 6+ months expenses",
-              "zh": "充足 - 6个月以上支出"
+              "zh": "充足 - 6 个月以上支出"
             },
             "high": {
               "en": "High - Significant savings",
@@ -1473,7 +1467,7 @@
         "hold_for_ipo": {
           "title": {
             "en": "Hold for Potential IPO",
-            "zh": "持有等待潜在IPO"
+            "zh": "持有等待潜在 IPO"
           },
           "message": {
             "en": "Pre-IPO companies often see significant gains. Consider holding if you can afford the risk.",
@@ -1547,7 +1541,7 @@
       },
       "button": {
         "en": "Read the 101 Guide",
-        "zh": "阅读基础指南"
+        "zh": "阅读基础指北"
       }
     }
   }
