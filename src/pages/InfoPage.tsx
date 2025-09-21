@@ -61,10 +61,10 @@ const InfoPage: React.FC = () => {
           icon={<TrendingUp className="w-6 h-6 text-primary-600" />}
           defaultOpen={true}
         >
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.options.what_are.title')}</h3>
-              <p className="text-gray-700 mb-4">
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.options.what_are.title')}</h3>
+              <p className="text-base text-gray-700 mb-4">
                 {t('info.sections.options.what_are.description')}
               </p>
               <div className="bg-blue-50 p-4 rounded-lg">
@@ -74,12 +74,12 @@ const InfoPage: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.options.types.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.options.types.title')}</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">{t('info.sections.options.types.china_reality.title')}</h4>
-                  <ul className="text-green-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-green-800 mb-3">{t('info.sections.options.types.china_reality.title')}</h4>
+                  <ul className="text-base text-green-700 space-y-2">
                     <li>• {t('info.sections.options.types.china_reality.features.no_iso_nso')}</li>
                     <li>• {t('info.sections.options.types.china_reality.features.exercise_tax')}</li>
                     <li>• {t('info.sections.options.types.china_reality.features.sale_tax')}</li>
@@ -87,8 +87,8 @@ const InfoPage: React.FC = () => {
                   </ul>
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-800 mb-2">{t('info.sections.options.types.foreign_company.title')}</h4>
-                  <ul className="text-orange-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-orange-800 mb-3">{t('info.sections.options.types.foreign_company.title')}</h4>
+                  <ul className="text-base text-orange-700 space-y-2">
                     <li>• {t('info.sections.options.types.foreign_company.features.tax_resident')}</li>
                     <li>• {t('info.sections.options.types.foreign_company.features.rsu_alternative')}</li>
                     <li>• {t('info.sections.options.types.foreign_company.features.parent_company')}</li>
@@ -97,15 +97,15 @@ const InfoPage: React.FC = () => {
               </div>
 
               <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
-                <p className="text-yellow-800 text-sm">
+                <p className="text-base text-yellow-800">
                   {t('info.sections.options.types.note')}
                 </p>
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.options.vesting.title')}</h3>
-              <p className="text-gray-700 mb-3">
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.options.vesting.title')}</h3>
+              <p className="text-base text-gray-700 mb-4">
                 {t('info.sections.options.vesting.description')}
               </p>
               <div className="bg-gray-50 p-4 rounded-lg">
@@ -157,7 +157,7 @@ const InfoPage: React.FC = () => {
               </div>
 
               <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                <p className="text-blue-800 text-sm">
+                <p className="text-base text-blue-800">
                   {t('info.sections.options.vesting.note')}
                 </p>
               </div>
@@ -170,48 +170,48 @@ const InfoPage: React.FC = () => {
           title={t('info.sections.rsu.title')}
           icon={<DollarSign className="w-6 h-6 text-success-600" />}
         >
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.rsu.what_are.title')}</h3>
-              <p className="text-gray-700 mb-4">
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.rsu.what_are.title')}</h3>
+              <p className="text-base text-gray-700 mb-4">
                 {t('info.sections.rsu.what_are.description')}
               </p>
               <div className="bg-green-50 p-4 rounded-lg">
-                <p className="text-green-800">
+                <p className="text-base text-green-800">
                   {t('info.sections.rsu.what_are.key_difference')}
                 </p>
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.rsu.vesting_taxation.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.rsu.vesting_taxation.title')}</h3>
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <Calendar className="w-5 h-5 text-blue-500 mt-1" />
-                  <div>
-                    <p className="font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.vesting_events.title')}</p>
-                    <p className="text-gray-600 text-sm">{t('info.sections.rsu.vesting_taxation.vesting_events.description')}</p>
+                  <div className="space-y-4">
+                    <p className="text-base font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.vesting_events.title')}</p>
+                    <p className="text-sm text-gray-600">{t('info.sections.rsu.vesting_taxation.vesting_events.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <FileText className="w-5 h-5 text-orange-500 mt-1" />
-                  <div>
-                    <p className="font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.tax_on_vesting.title')}</p>
-                    <p className="text-gray-600 text-sm">{t('info.sections.rsu.vesting_taxation.tax_on_vesting.description')}</p>
+                  <div className="space-y-4">
+                    <p className="text-base font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.tax_on_vesting.title')}</p>
+                    <p className="text-sm text-gray-600">{t('info.sections.rsu.vesting_taxation.tax_on_vesting.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <TrendingUp className="w-5 h-5 text-green-500 mt-1" />
-                  <div>
-                    <p className="font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.capital_gains.title')}</p>
-                    <p className="text-gray-600 text-sm">{t('info.sections.rsu.vesting_taxation.capital_gains.description')}</p>
+                  <div className="space-y-4">
+                    <p className="text-base font-medium text-gray-900">{t('info.sections.rsu.vesting_taxation.capital_gains.title')}</p>
+                    <p className="text-sm text-gray-600">{t('info.sections.rsu.vesting_taxation.capital_gains.description')}</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.rsu.comparison.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.rsu.comparison.title')}</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
                   <thead>
@@ -254,34 +254,34 @@ const InfoPage: React.FC = () => {
           title={t('info.sections.tax.title')}
           icon={<Globe className="w-6 h-6 text-warning-600" />}
         >
-          <div className="space-y-6">
+          <div className="space-y-8">
             <div className="bg-red-50 border border-red-200 p-4 rounded-lg">
               <div className="flex items-start space-x-3">
                 <AlertTriangle className="w-5 h-5 text-red-500 mt-1" />
-                <div>
+                <div className="space-y-4">
                   <p className="font-semibold text-red-800">{t('info.sections.tax.disclaimer.title')}</p>
-                  <p className="text-red-700 text-sm mt-1">
+                  <p className="text-sm text-red-700 mt-2">
                     {t('info.sections.tax.disclaimer.content')}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.china_tax_reality.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.tax.china_tax_reality.title')}</h3>
               <div className="space-y-4">
-                <div>
-                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.china_tax_reality.options.title')}</h4>
-                  <ul className="text-gray-700 space-y-1 ml-4">
+                <div className="space-y-4">
+                  <h4 className="text-lg font-medium text-gray-900 mb-3">{t('info.sections.tax.china_tax_reality.options.title')}</h4>
+                  <ul className="text-base text-gray-700 space-y-2 ml-4">
                     <li>• {t('info.sections.tax.china_tax_reality.options.no_iso_nso')}</li>
                     <li>• {t('info.sections.tax.china_tax_reality.options.exercise_tax')}</li>
                     <li>• {t('info.sections.tax.china_tax_reality.options.sale_tax')}</li>
                     <li>• {t('info.sections.tax.china_tax_reality.options.no_holding_benefits')}</li>
                   </ul>
                 </div>
-                <div>
-                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.china_tax_reality.rsus.title')}</h4>
-                  <ul className="text-gray-700 space-y-1 ml-4">
+                <div className="space-y-4">
+                  <h4 className="text-lg font-medium text-gray-900 mb-3">{t('info.sections.tax.china_tax_reality.rsus.title')}</h4>
+                  <ul className="text-base text-gray-700 space-y-2 ml-4">
                     <li>• {t('info.sections.tax.china_tax_reality.rsus.vesting_tax')}</li>
                     <li>• {t('info.sections.tax.china_tax_reality.rsus.sale_tax')}</li>
                     <li>• {t('info.sections.tax.china_tax_reality.rsus.company_withholding')}</li>
@@ -290,13 +290,13 @@ const InfoPage: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.foreign_company_tax.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.tax.foreign_company_tax.title')}</h3>
               <div className="bg-yellow-50 p-4 rounded-lg">
-                <p className="text-yellow-800 mb-3">
+                <p className="text-base text-yellow-800 mb-4">
                   <strong>{t('info.sections.tax.foreign_company_tax.key_points')}</strong>
                 </p>
-                <ul className="text-yellow-700 space-y-2">
+                <ul className="text-base text-yellow-700 space-y-2">
                   <li>• {t('info.sections.tax.foreign_company_tax.tax_resident')}</li>
                   <li>• {t('info.sections.tax.foreign_company_tax.parent_company_options')}</li>
                   <li>• {t('info.sections.tax.foreign_company_tax.no_double_taxation')}</li>
@@ -307,20 +307,20 @@ const InfoPage: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.planning.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.tax.planning.title')}</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">{t('info.sections.tax.planning.timing.title')}</h4>
-                  <ul className="text-blue-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-blue-800 mb-3">{t('info.sections.tax.planning.timing.title')}</h4>
+                  <ul className="text-base text-blue-700 space-y-2">
                     <li>• {t('info.sections.tax.planning.timing.tax_year')}</li>
                     <li>• {t('info.sections.tax.planning.timing.residency_changes')}</li>
                     <li>• {t('info.sections.tax.planning.timing.income_coordination')}</li>
                   </ul>
                 </div>
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-800 mb-2">{t('info.sections.tax.planning.documentation.title')}</h4>
-                  <ul className="text-purple-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-purple-800 mb-3">{t('info.sections.tax.planning.documentation.title')}</h4>
+                  <ul className="text-base text-purple-700 space-y-2">
                     <li>• {t('info.sections.tax.planning.documentation.detailed_records')}</li>
                     <li>• {t('info.sections.tax.planning.documentation.exchange_rates')}</li>
                     <li>• {t('info.sections.tax.planning.documentation.agreements')}</li>
@@ -336,13 +336,13 @@ const InfoPage: React.FC = () => {
           title={t('info.sections.exercise_sell.title')}
           icon={<Calendar className="w-6 h-6 text-purple-600" />}
         >
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.exercise_sell.exercise_timing.title')}</h3>
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.exercise_sell.exercise_timing.title')}</h3>
               <div className="space-y-4">
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">{t('info.sections.exercise_sell.exercise_timing.early_exercise.title')}</h4>
-                  <ul className="text-green-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-green-800 mb-3">{t('info.sections.exercise_sell.exercise_timing.early_exercise.title')}</h4>
+                  <ul className="text-base text-green-700 space-y-2">
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.ipo_soon')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.appreciation_expected')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.holding_period')}</li>
@@ -351,8 +351,8 @@ const InfoPage: React.FC = () => {
                 </div>
 
                 <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-800 mb-2">{t('info.sections.exercise_sell.exercise_timing.wait_to_exercise.title')}</h4>
-                  <ul className="text-orange-700 text-sm space-y-1">
+                  <h4 className="text-lg font-semibold text-orange-800 mb-3">{t('info.sections.exercise_sell.exercise_timing.wait_to_exercise.title')}</h4>
+                  <ul className="text-base text-orange-700 space-y-2">
                     <li>• {t('info.sections.exercise_sell.exercise_timing.wait_to_exercise.uncertain_prospects')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.wait_to_exercise.liquidity_needs')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.wait_to_exercise.underwater')}</li>
@@ -362,13 +362,13 @@ const InfoPage: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.exercise_sell.selling_strategies.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.exercise_sell.selling_strategies.title')}</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-blue-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-blue-800 mb-2">{t('info.sections.exercise_sell.selling_strategies.immediate_sale.title')}</h4>
-                  <p className="text-blue-700 text-sm mb-2">{t('info.sections.exercise_sell.selling_strategies.immediate_sale.description')}</p>
-                  <ul className="text-blue-600 text-xs space-y-1">
+                  <h4 className="text-lg font-semibold text-blue-800 mb-3">{t('info.sections.exercise_sell.selling_strategies.immediate_sale.title')}</h4>
+                  <p className="text-base text-blue-700 mb-3">{t('info.sections.exercise_sell.selling_strategies.immediate_sale.description')}</p>
+                  <ul className="text-sm text-blue-600 space-y-1">
                     <li>• {t('info.sections.exercise_sell.selling_strategies.immediate_sale.lock_gains')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.immediate_sale.minimize_risk')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.immediate_sale.higher_tax')}</li>
@@ -376,9 +376,9 @@ const InfoPage: React.FC = () => {
                 </div>
 
                 <div className="bg-purple-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-purple-800 mb-2">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.title')}</h4>
-                  <p className="text-purple-700 text-sm mb-2">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.description')}</p>
-                  <ul className="text-purple-600 text-xs space-y-1">
+                  <h4 className="text-lg font-semibold text-purple-800 mb-3">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.title')}</h4>
+                  <p className="text-base text-purple-700 mb-3">{t('info.sections.exercise_sell.selling_strategies.hold_strategy.description')}</p>
+                  <ul className="text-sm text-purple-600 space-y-1">
                     <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.further_appreciation')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.decline_risk')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.hold_strategy.double_tax')}</li>
@@ -386,9 +386,9 @@ const InfoPage: React.FC = () => {
                 </div>
 
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">{t('info.sections.exercise_sell.selling_strategies.gradual_sale.title')}</h4>
-                  <p className="text-green-700 text-sm mb-2">{t('info.sections.exercise_sell.selling_strategies.gradual_sale.description')}</p>
-                  <ul className="text-green-600 text-xs space-y-1">
+                  <h4 className="text-lg font-semibold text-green-800 mb-3">{t('info.sections.exercise_sell.selling_strategies.gradual_sale.title')}</h4>
+                  <p className="text-base text-green-700 mb-3">{t('info.sections.exercise_sell.selling_strategies.gradual_sale.description')}</p>
+                  <ul className="text-sm text-green-600 space-y-1">
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.diversify_risk')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.dollar_cost_averaging')}</li>
                     <li>• {t('info.sections.exercise_sell.selling_strategies.gradual_sale.spread_tax')}</li>
@@ -398,13 +398,13 @@ const InfoPage: React.FC = () => {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.exercise_sell.risk_management.title')}</h3>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('info.sections.exercise_sell.risk_management.title')}</h3>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <p className="text-gray-700 mb-3">
+                <p className="text-base text-gray-700 mb-4">
                   <strong>{t('info.sections.exercise_sell.risk_management.diversification_key')}</strong>
                 </p>
-                <ul className="text-gray-600 space-y-1">
+                <ul className="text-base text-gray-600 space-y-2">
                   <li>• {t('info.sections.exercise_sell.risk_management.total_exposure')}</li>
                   <li>• {t('info.sections.exercise_sell.risk_management.target_percentages')}</li>
                   <li>• {t('info.sections.exercise_sell.risk_management.regular_rebalance')}</li>
