@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ChevronDown, ChevronRight, DollarSign, Calendar, TrendingUp, AlertTriangle, Globe, FileText, Calculator, BookOpenCheck } from 'lucide-react'
+import { ChevronDown, ChevronRight, DollarSign, Calendar, TrendingUp, AlertTriangle, Globe, FileText, Calculator } from 'lucide-react'
 import { useLanguage } from '../contexts/LanguageContext'
 
 interface SectionProps {
@@ -78,21 +78,20 @@ const InfoPage: React.FC = () => {
               <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.options.types.title')}</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800 mb-2">{t('info.sections.options.types.iso.title')}</h4>
+                  <h4 className="font-semibold text-green-800 mb-2">{t('info.sections.options.types.china_reality.title')}</h4>
                   <ul className="text-green-700 text-sm space-y-1">
-                    <li>• {t('info.sections.options.types.iso.features.tax_advantaged')}</li>
-                    <li>• {t('info.sections.options.types.iso.features.holding_period')}</li>
-                    <li>• {t('info.sections.options.types.iso.features.amt')}</li>
-                    <li>• {t('info.sections.options.types.iso.features.employees_only')}</li>
+                    <li>• {t('info.sections.options.types.china_reality.features.no_iso_nso')}</li>
+                    <li>• {t('info.sections.options.types.china_reality.features.exercise_tax')}</li>
+                    <li>• {t('info.sections.options.types.china_reality.features.sale_tax')}</li>
+                    <li>• {t('info.sections.options.types.china_reality.features.no_holding_period')}</li>
                   </ul>
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-orange-800 mb-2">{t('info.sections.options.types.nso.title')}</h4>
+                  <h4 className="font-semibold text-orange-800 mb-2">{t('info.sections.options.types.foreign_company.title')}</h4>
                   <ul className="text-orange-700 text-sm space-y-1">
-                    <li>• {t('info.sections.options.types.nso.features.ordinary_income')}</li>
-                    <li>• {t('info.sections.options.types.nso.features.no_holding')}</li>
-                    <li>• {t('info.sections.options.types.nso.features.flexible')}</li>
-                    <li>• {t('info.sections.options.types.nso.features.less_advantaged')}</li>
+                    <li>• {t('info.sections.options.types.foreign_company.features.tax_resident')}</li>
+                    <li>• {t('info.sections.options.types.foreign_company.features.rsu_alternative')}</li>
+                    <li>• {t('info.sections.options.types.foreign_company.features.parent_company')}</li>
                   </ul>
                 </div>
               </div>
@@ -269,41 +268,41 @@ const InfoPage: React.FC = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.us_tax.title')}</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.china_tax_reality.title')}</h3>
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.us_tax.options.title')}</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.china_tax_reality.options.title')}</h4>
                   <ul className="text-gray-700 space-y-1 ml-4">
-                    <li>• <strong>ISO:</strong> {t('info.sections.tax.us_tax.options.iso')}</li>
-                    <li>• <strong>NSO:</strong> {t('info.sections.tax.us_tax.options.nso')}</li>
-                    <li>• {t('info.sections.tax.us_tax.options.capital_gains')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.options.no_iso_nso')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.options.exercise_tax')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.options.sale_tax')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.options.no_holding_benefits')}</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.us_tax.rsus.title')}</h4>
+                  <h4 className="font-medium text-gray-900 mb-2">{t('info.sections.tax.china_tax_reality.rsus.title')}</h4>
                   <ul className="text-gray-700 space-y-1 ml-4">
-                    <li>• {t('info.sections.tax.us_tax.rsus.vesting_tax')}</li>
-                    <li>• {t('info.sections.tax.us_tax.rsus.sale_tax')}</li>
-                    <li>• {t('info.sections.tax.us_tax.rsus.withholding')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.rsus.vesting_tax')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.rsus.sale_tax')}</li>
+                    <li>• {t('info.sections.tax.china_tax_reality.rsus.company_withholding')}</li>
                   </ul>
                 </div>
               </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.china_tax.title')}</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">{t('info.sections.tax.foreign_company_tax.title')}</h3>
               <div className="bg-yellow-50 p-4 rounded-lg">
                 <p className="text-yellow-800 mb-3">
-                  <strong>{t('info.sections.tax.china_tax.key_points')}</strong>
+                  <strong>{t('info.sections.tax.foreign_company_tax.key_points')}</strong>
                 </p>
                 <ul className="text-yellow-700 space-y-2">
-                  <li>• {t('info.sections.tax.china_tax.worldwide_income')}</li>
-                  <li>• {t('info.sections.tax.china_tax.tax_treaties')}</li>
-                  <li>• {t('info.sections.tax.china_tax.timing_differences')}</li>
-                  <li>• {t('info.sections.tax.china_tax.currency_conversion')}</li>
-                  <li>• {t('info.sections.tax.china_tax.residency_rules')}</li>
-                  <li>• {t('info.sections.tax.china_tax.capital_gains_china')}</li>
-                  <li>• {t('info.sections.tax.china_tax.complete_tax_chain')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.tax_resident')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.parent_company_options')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.no_double_taxation')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.currency_conversion')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.rsu_preference')}</li>
+                  <li>• {t('info.sections.tax.foreign_company_tax.complete_tax_chain')}</li>
                 </ul>
               </div>
             </div>
@@ -347,7 +346,7 @@ const InfoPage: React.FC = () => {
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.ipo_soon')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.appreciation_expected')}</li>
                     <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.holding_period')}</li>
-                    <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.amt_minimize')}</li>
+                    <li>• {t('info.sections.exercise_sell.exercise_timing.early_exercise.tax_optimization')}</li>
                   </ul>
                 </div>
 
@@ -416,42 +415,6 @@ const InfoPage: React.FC = () => {
           </div>
         </Section>
 
-        {/* Term Sheet - Show for all languages */}
-        <Section
-          title={t('info.term_sheet.title')}
-          icon={<BookOpenCheck className="w-6 h-6 text-indigo-600" />}
-        >
-          <div className="space-y-4">
-            <p className="text-gray-700 mb-6">
-              {t('info.term_sheet.subtitle')}
-            </p>
-
-            <div className="grid md:grid-cols-1 gap-4">
-              {[
-                'iso', 'nso', 'rsu', 'espp', 'amt', 'ipo',
-                'fmv', 'ltcg', 'stcg', 'vesting', 'cliff', 'strike_price', 'exercise'
-              ].map((termKey) => (
-                <div key={termKey} className="flex items-start space-x-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="flex-shrink-0">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800">
-                      {t(`info.term_sheet.terms.${termKey}.abbr`)}
-                    </span>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center space-x-2 mb-1">
-                      <p className="text-sm font-medium text-gray-900">
-                        {t(`info.term_sheet.terms.${termKey}.full`)}
-                      </p>
-                    </div>
-                    <p className="text-sm text-gray-600">
-                      {t(`info.term_sheet.terms.${termKey}.description`)}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </Section>
 
         {/* Call to Action */}
         <div className="text-center mt-12 p-8 bg-primary-50 rounded-lg">

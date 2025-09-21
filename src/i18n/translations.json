@@ -74,60 +74,56 @@
         },
         "types": {
           "title": {
-            "en": "Types of Stock Options",
-            "zh": "外企常见的两种期权，搞清楚很重要！"
+            "en": "Stock Options in China",
+            "zh": "中国员工拿到的期权，实际情况是这样的"
           },
-          "iso": {
+          "china_reality": {
             "title": {
-              "en": "ISO (Incentive Stock Options)",
-              "zh": "ISO (Incentive Stock Options) - 激励性期权（税收友好型）"
+              "en": "Chinese Tax Reality",
+              "zh": "中国税收政策：没有美国式的优惠"
             },
             "features": {
-              "tax_advantaged": {
-                "en": "Tax-advantaged for employees",
-                "zh": "✅ 税收优惠大：符合条件可享受长期资本利得税率"
+              "no_iso_nso": {
+                "en": "No ISO/NSO distinction in China",
+                "zh": "🚫 中国没有 ISO/NSO 的区分，政策比较\"一刀切\""
               },
-              "holding_period": {
-                "en": "Must hold 2+ years from grant, 1+ year from exercise",
-                "zh": "⏰ 持有要求：拿到期权 2 年后 + 行权 1 年后才能享受优惠"
+              "exercise_tax": {
+                "en": "Taxed on exercise as salary income",
+                "zh": "💰 行权时：股票的行权价和市价差额，计入\"工资薪金所得\"，按综合所得税率（3%–45%累进）缴纳个人所得税"
               },
-              "amt": {
-                "en": "AMT (Alternative Minimum Tax) implications",
-                "zh": "⚠️ 注意 AMT (Alternative Minimum Tax)：行权时可能触发替代最低税，需要计算"
+              "sale_tax": {
+                "en": "20% tax on capital gains when selling",
+                "zh": "📈 卖出时：如果股票之后还有涨幅，差额部分算\"财产转让所得\"，适用 20% 税率"
               },
-              "employees_only": {
-                "en": "Only for employees, not contractors",
-                "zh": "🎯 仅限正式员工，外包/顾问拿不到"
+              "no_holding_period": {
+                "en": "No 2+1 year holding period benefits",
+                "zh": "⏰ 没有美国那种\"2 年 + 1 年\"的税收优惠"
               }
             }
           },
-          "nso": {
+          "foreign_company": {
             "title": {
-              "en": "NSO (Non-Qualified Stock Options)",
-              "zh": "NSO (Nonqualified Stock Options) - 非合格期权（更灵活）"
+              "en": "Foreign Company Options",
+              "zh": "外企常见操作"
             },
             "features": {
-              "ordinary_income": {
-                "en": "Taxed as ordinary income when exercised",
-                "zh": "💰 行权即征税：按工资收入税率缴税，税负较重"
+              "tax_resident": {
+                "en": "Chinese tax residents pay Chinese taxes",
+                "zh": "🏠 如果是中国税收居民（在境内 ≥183 天），即使期权由美国母公司授予，仍然要在中国申报个税"
               },
-              "no_holding": {
-                "en": "No holding period requirements",
-                "zh": "🚀 随时可卖：行权后立即出售也行，没有持有期限制"
+              "rsu_alternative": {
+                "en": "Many companies use RSUs instead",
+                "zh": "🔄 有些公司会用 RSU（限制性股票单位）代替期权，RSU 在解禁时计入工资薪金所得征税"
               },
-              "flexible": {
-                "en": "Available to employees and contractors",
-                "zh": "👥 覆盖面广：正式员工、外包、顾问都可能拿到"
-              },
-              "less_advantaged": {
-                "en": "More flexible but less tax-advantaged",
-                "zh": "⚖️ 灵活但贵：操作简单，但税收成本比ISO高"
+              "parent_company": {
+                "en": "Parent company options still subject to Chinese tax",
+                "zh": "🌍 很多在华外企员工拿到的母公司期权，行权地/纳税地要看员工的税收居民身份"
               }
             }
           },
           "note": {
-            "en": "The ISO/NSO distinction commonly used in the US may not directly apply in China's context. Chinese companies typically structure their equity incentives based on local regulations and practical needs. For instance, many tech companies using VIE structures need to consider specific requirements around option exercise registration. While understanding ISO/NSO concepts is helpful, the actual implementation in China often requires customized solutions that work within the local regulatory framework. In practice, Chinese companies tend to favor NSO-like structures for their flexibility.",
-            "zh": "美国常见的 ISO/NSO 分类在中国可能并不完全适用。国内公司通常需要根据本地法规和实际需求来设计股权激励方案。比如很多采用 VIE 架构的科技公司，在期权行权时都需要考虑特殊的备案要求。实践中，国内公司更常见的是类似NSO的灵活方案。"
+            "en": "Note: This reflects Chinese tax law for stock options. Always consult with tax professionals for your specific situation.",
+            "zh": "⚠️ 注意：以上反映的是中国股票期权的税收政策。具体情况请咨询税务专业人士。"
           }
         },
         "vesting": {
@@ -331,91 +327,91 @@
         "disclaimer": {
           "title": {
             "en": "Important Disclaimer",
-            "zh": "⚠️ 先说重要的事"
+            "zh": "先说重要的事"
           },
           "content": {
             "en": "Tax laws are complex and change frequently. This is educational information only. Always consult with qualified tax professionals in both countries.",
             "zh": "税务问题水很深！中美两国税法都在变，这里只是科普。真要操作前，一定要找专业的税务师咨询，别拿自己的钱开玩笑。"
           }
         },
-        "us_tax": {
+        "china_tax_reality": {
           "title": {
-            "en": "US Tax Obligations",
-            "zh": "美国这边怎么收税？"
+            "en": "Chinese Tax Reality for Stock Options",
+            "zh": "中国股票期权的税收现实"
           },
           "options": {
             "title": {
-              "en": "For Stock Options:",
-              "zh": "期权的税务套路："
+              "en": "For Stock Options in China:",
+              "zh": "中国期权的税务政策："
             },
-            "iso": {
-              "en": "ISO: No tax on exercise, but AMT may apply. Tax on sale based on holding period.",
-              "zh": "💡 ISO比较友好：行权时暂时不用交税，但小心 AMT (Alternative Minimum Tax) 这个坑。卖股票时才真正算税，持有时间够长的话税率更低。"
+            "no_iso_nso": {
+              "en": "No ISO/NSO distinction - all treated the same",
+              "zh": "🚫 没有 ISO/NSO 区分：中国没有美国式的税收优惠，所有期权都按统一政策处理"
             },
-            "nso": {
-              "en": "NSO: Ordinary income tax on exercise (fair market value - strike price)",
-              "zh": "💸 NSO 比较直接：行权那一刻就得按工资收入交税。比如股价 50 美元，行权价 10 美元，那 40 美元差价要按你的工资税率交税。"
+            "exercise_tax": {
+              "en": "Taxed on exercise as salary income (3%-45% progressive rate)",
+              "zh": "💰 行权即交税：行权价和市价差额按\"工资薪金所得\"征税，适用 3%-45% 的综合所得税率"
             },
-            "capital_gains": {
-              "en": "Capital gains tax on any additional gains when selling shares",
-              "zh": "📈 卖出时的第二重税：行权后如果不立即卖出，等股价涨了再卖，涨幅部分要交资本利得税。持有1年以上享受长期资本利得税率（通常 15-20%），不到 1 年按普通收入税率算。"
+            "sale_tax": {
+              "en": "20% flat rate on capital gains when selling",
+              "zh": "📈 卖出时 20% 税率：股票卖出时的收益按\"财产转让所得\"征收 20% 固定税率，没有持有期优惠"
+            },
+            "no_holding_benefits": {
+              "en": "No 2+1 year holding period benefits like in the US",
+              "zh": "⏰ 没有持有期优惠：中国没有美国那种\"2年+1年\"的税收优惠，持有时间长短不影响税率"
             }
           },
           "rsus": {
             "title": {
-              "en": "For RSUs:",
-              "zh": "RSU 的税务更简单："
+              "en": "For RSUs in China:",
+              "zh": "中国 RSU 的税务："
             },
             "vesting_tax": {
-              "en": "Ordinary income tax on vesting date (full market value)",
-              "zh": "🎯 股票到账即交税：RSU 一归属，整个市场价值都要按工资收入交税。比如 1000 股 × 50 美元 = 5 万美元，全部算收入。"
+              "en": "Taxed on vesting as salary income (3%-45% progressive rate)",
+              "zh": "🎯 解禁即交税：RSU 解禁时按\"工资薪金所得\"征税，适用 3%-45% 的综合所得税率"
             },
             "sale_tax": {
-              "en": "Capital gains tax on gains/losses from vesting price to sale price",
-              "zh": "📊 卖出时的第二重税：RSU 归属后如果不立即卖，等股价变化后再卖，价差要交资本利得税。比如归属时 50 美元，涨到 100 美元再卖，那 50 美元涨幅要交资本利得税。"
+              "en": "20% flat rate on capital gains when selling",
+              "zh": "📊 卖出时 20% 税率：RSU 卖出时的收益按\"财产转让所得\"征收 20% 固定税率"
             },
-            "withholding": {
-              "en": "Withholding typically happens automatically",
-              "zh": "🤖 自动扣税：公司通常会自动帮你扣掉一部分税，但可能不够，年底报税时要补。"
+            "company_withholding": {
+              "en": "Company may withhold taxes automatically",
+              "zh": "🤖 公司代扣代缴：公司通常会代扣代缴个人所得税，但可能需要个人补缴差额"
             }
           }
         },
-        "china_tax": {
+        "foreign_company_tax": {
           "title": {
-            "en": "China Tax Considerations",
-            "zh": "回国后国内怎么收税？这是大头！"
+            "en": "Foreign Company Options in China",
+            "zh": "外企期权在中国的税务处理"
           },
           "key_points": {
-            "en": "Key Points for Chinese Tax Residents:",
-            "zh": "国内员工必须知道的几个要点："
+            "en": "Key Points for Chinese Employees at Foreign Companies:",
+            "zh": "外企中国员工必须知道的要点："
           },
-          "worldwide_income": {
-            "en": "China may tax worldwide income, including stock compensation",
-            "zh": "🌍 全球收入都要报：你在美国的股票收益，国内税务局也要管！尤其是税务居民身份的人。"
+          "tax_resident": {
+            "en": "Chinese tax residents (≥183 days in China) pay Chinese taxes",
+            "zh": "🏠 中国税收居民身份：在境内居住满 183 天就算中国税收居民，即使期权由美国母公司授予，也要在中国申报个税"
           },
-          "tax_treaties": {
-            "en": "Tax treaties between US and China may provide relief from double taxation",
-            "zh": "🤝 避免双重征税：中美有协定，理论上不会让你交两遍税，但具体操作很复杂。"
+          "parent_company_options": {
+            "en": "Parent company options still subject to Chinese tax law",
+            "zh": "🌍 母公司期权也要交中国税：很多在华外企员工拿到的母公司期权，行权地/纳税地要看员工的税收居民身份"
           },
-          "timing_differences": {
-            "en": "Timing of recognition may differ between US and China tax systems",
-            "zh": "⏰ 时间差很要命：美国可能今年算收入，中国可能明年才算，搞不好会很麻烦。"
+          "no_double_taxation": {
+            "en": "Tax treaties help avoid double taxation",
+            "zh": "🤝 避免双重征税：中美税收协定可以帮助避免双重征税，但需要正确申报和申请税收抵免"
           },
           "currency_conversion": {
-            "en": "Currency conversion rates affect the taxable amount in RMB",
-            "zh": "💱 汇率是个坑：美元收入要按汇率转成人民币算税，汇率波动会影响你的税负。"
+            "en": "Foreign currency income converted to RMB for tax calculation",
+            "zh": "💱 汇率转换：美元收入要按汇率转成人民币计算税额，汇率波动会影响税负"
           },
-          "residency_rules": {
-            "en": "Different rules may apply based on your tax residency status",
-            "zh": "🏠 居民身份很关键：在国内住满 183 天就算税务居民，规则完全不一样，一定要搞清楚。"
-          },
-          "capital_gains_china": {
-            "en": "Capital gains from stock sales are subject to China's tax rates",
-            "zh": "💰 国内资本利得税：卖股票的收益在国内按 20% 固定税率征收！这比美国的长期资本利得税率（15-20%）要高，而且没有持有期优惠。"
+          "rsu_preference": {
+            "en": "Many companies prefer RSUs over options in China",
+            "zh": "🔄 公司偏好 RSU：很多公司在中国更愿意给 RSU 而不是期权，因为税务处理相对简单"
           },
           "complete_tax_chain": {
-            "en": "Complete tax implications from grant to final sale",
-            "zh": "🔗 完整税务链条：拿期权 → 行权交税 → 卖出再交税，每个环节都有税务影响，千万别只算前面忘了后面。"
+            "en": "Complete tax chain from grant to final sale",
+            "zh": "🔗 完整税务链条：从授予 → 行权/解禁交税 → 卖出再交税，每个环节都要考虑中国税务影响"
           }
         },
         "planning": {
@@ -488,9 +484,9 @@
               "en": "You want to start the capital gains holding period",
               "zh": "您想开始资本利得持有期"
             },
-            "amt_minimize": {
-              "en": "ISOs: Minimize AMT impact by exercising small amounts annually",
-              "zh": "ISO：通过每年行权小额来最小化 AMT (Alternative Minimum Tax) 影响"
+            "tax_optimization": {
+              "en": "Tax optimization: Exercise when income is lower to reduce tax burden",
+              "zh": "税务优化：在收入较低的年份行权，减少税负"
             }
           },
           "wait_to_exercise": {
@@ -616,200 +612,6 @@
           "exit_strategy": {
             "en": "Have an exit strategy before you need it",
             "zh": "在需要之前制定退出策略"
-          }
-        }
-      }
-    },
-    "term_sheet": {
-      "title": {
-        "en": "Glossary of Terms",
-        "zh": "术语表"
-      },
-      "subtitle": {
-        "en": "Common abbreviations and terms used in stock compensation",
-        "zh": "股票补偿中常用的缩写和术语"
-      },
-      "terms": {
-        "iso": {
-          "abbr": {
-            "en": "ISO",
-            "zh": "ISO"
-          },
-          "full": {
-            "en": "Incentive Stock Options",
-            "zh": "激励性股票期权"
-          },
-          "description": {
-            "en": "Tax-advantaged stock options for employees with special holding period requirements",
-            "zh": "为员工提供的税收优惠股票期权，有特殊持有期要求"
-          }
-        },
-        "nso": {
-          "abbr": {
-            "en": "NSO",
-            "zh": "NSO"
-          },
-          "full": {
-            "en": "Non-Qualified Stock Options",
-            "zh": "非合格股票期权"
-          },
-          "description": {
-            "en": "Stock options without special tax treatment, taxed as ordinary income",
-            "zh": "无特殊税收待遇的股票期权，按普通收入征税"
-          }
-        },
-        "rsu": {
-          "abbr": {
-            "en": "RSU",
-            "zh": "RSU"
-          },
-          "full": {
-            "en": "Restricted Stock Units",
-            "zh": "限制性股票单位"
-          },
-          "description": {
-            "en": "Company shares that vest over time, no exercise required",
-            "zh": "随时间归属的公司股票，无需行权"
-          }
-        },
-        "espp": {
-          "abbr": {
-            "en": "ESPP",
-            "zh": "ESPP"
-          },
-          "full": {
-            "en": "Employee Stock Purchase Plan",
-            "zh": "员工股票购买计划"
-          },
-          "description": {
-            "en": "Program allowing employees to buy company stock at a discount",
-            "zh": "允许员工以折扣价购买公司股票的计划"
-          }
-        },
-        "amt": {
-          "abbr": {
-            "en": "AMT",
-            "zh": "AMT"
-          },
-          "full": {
-            "en": "Alternative Minimum Tax",
-            "zh": "替代最低税"
-          },
-          "description": {
-            "en": "US tax calculation that may apply to ISO exercises",
-            "zh": "可能适用于ISO行权的美国税收计算方式"
-          }
-        },
-        "ipo": {
-          "abbr": {
-            "en": "IPO",
-            "zh": "IPO"
-          },
-          "full": {
-            "en": "Initial Public Offering",
-            "zh": "首次公开募股"
-          },
-          "description": {
-            "en": "When a private company first sells shares to the public",
-            "zh": "私人公司首次向公众出售股票"
-          }
-        },
-        "fmv": {
-          "abbr": {
-            "en": "FMV",
-            "zh": "FMV"
-          },
-          "full": {
-            "en": "Fair Market Value",
-            "zh": "公允市场价值"
-          },
-          "description": {
-            "en": "The current trading price or estimated value of a stock",
-            "zh": "股票的当前交易价格或估计价值"
-          }
-        },
-        "ltcg": {
-          "abbr": {
-            "en": "LTCG",
-            "zh": "LTCG"
-          },
-          "full": {
-            "en": "Long-Term Capital Gains",
-            "zh": "长期资本利得"
-          },
-          "description": {
-            "en": "Tax rate for assets held longer than one year",
-            "zh": "持有超过一年的资产的税率"
-          }
-        },
-        "stcg": {
-          "abbr": {
-            "en": "STCG",
-            "zh": "STCG"
-          },
-          "full": {
-            "en": "Short-Term Capital Gains",
-            "zh": "短期资本利得"
-          },
-          "description": {
-            "en": "Tax rate for assets held one year or less",
-            "zh": "持有一年或更短时间的资产的税率"
-          }
-        },
-        "vesting": {
-          "abbr": {
-            "en": "Vesting",
-            "zh": "归属"
-          },
-          "full": {
-            "en": "Vesting Schedule",
-            "zh": "归属时间表"
-          },
-          "description": {
-            "en": "Timeline over which you earn the right to your stock compensation",
-            "zh": "您获得股票补偿权利的时间表"
-          }
-        },
-        "cliff": {
-          "abbr": {
-            "en": "Cliff",
-            "zh": "等待期"
-          },
-          "full": {
-            "en": "Cliff Vesting",
-            "zh": "等待期归属"
-          },
-          "description": {
-            "en": "Initial waiting period before any options or shares vest",
-            "zh": "任何期权或股票归属前的初始等待期"
-          }
-        },
-        "strike_price": {
-          "abbr": {
-            "en": "Strike Price",
-            "zh": "行权价"
-          },
-          "full": {
-            "en": "Exercise Price / Strike Price",
-            "zh": "行权价格/执行价格"
-          },
-          "description": {
-            "en": "Fixed price at which you can buy shares through options",
-            "zh": "您可以通过期权购买股票的固定价格"
-          }
-        },
-        "exercise": {
-          "abbr": {
-            "en": "Exercise",
-            "zh": "行权"
-          },
-          "full": {
-            "en": "Option Exercise",
-            "zh": "期权行权"
-          },
-          "description": {
-            "en": "The act of buying shares using your stock options",
-            "zh": "使用股票期权购买股票的行为"
           }
         }
       }
